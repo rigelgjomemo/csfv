@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/210415/llvm/trunk/test/MC/ARM/Windows
+END
+mov32t-range.s
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/209337/llvm/trunk/test/MC/ARM/Windows/mov32t-range.s
+END
+text-attributes.s
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/210415/llvm/trunk/test/MC/ARM/Windows/text-attributes.s
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/210787/llvm/trunk/test/MC/Mips/mips64r2
+END
+invalid.s
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/210757/llvm/trunk/test/MC/Mips/mips64r2/invalid.s
+END
+valid.s
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/210787/llvm/trunk/test/MC/Mips/mips64r2/valid.s
+END
+valid-xfail.s
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208327/llvm/trunk/test/MC/Mips/mips64r2/valid-xfail.s
+END

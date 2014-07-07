@@ -1,0 +1,521 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/llvm-project/!svn/ver/210885/llvm/trunk/lib/Target/R600
+END
+SISchedule.td
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/169915/llvm/trunk/lib/Target/R600/SISchedule.td
+END
+R600MachineScheduler.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/R600MachineScheduler.h
+END
+SIMachineFunctionInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/207843/llvm/trunk/lib/Target/R600/SIMachineFunctionInfo.h
+END
+LLVMBuild.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/196881/llvm/trunk/lib/Target/R600/LLVMBuild.txt
+END
+R600EmitClauseMarkers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/R600EmitClauseMarkers.cpp
+END
+AMDGPUSubtarget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/AMDGPUSubtarget.cpp
+END
+R600MachineFunctionInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/195064/llvm/trunk/lib/Target/R600/R600MachineFunctionInfo.cpp
+END
+AMDGPURegisterInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/AMDGPURegisterInfo.cpp
+END
+AMDGPUFrameLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/207197/llvm/trunk/lib/Target/R600/AMDGPUFrameLowering.cpp
+END
+R600Packetizer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/R600Packetizer.cpp
+END
+AMDGPUTargetMachine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/AMDGPUTargetMachine.cpp
+END
+AMDGPUInstrInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/AMDGPUInstrInfo.cpp
+END
+R600ISelLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/R600ISelLowering.cpp
+END
+AMDGPUCallingConv.td
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/207990/llvm/trunk/lib/Target/R600/AMDGPUCallingConv.td
+END
+AMDGPU.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/209463/llvm/trunk/lib/Target/R600/AMDGPU.h
+END
+SIMachineFunctionInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/207843/llvm/trunk/lib/Target/R600/SIMachineFunctionInfo.cpp
+END
+CaymanInstructions.td
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/209458/llvm/trunk/lib/Target/R600/CaymanInstructions.td
+END
+AMDGPURegisterInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/183061/llvm/trunk/lib/Target/R600/AMDGPURegisterInfo.td
+END
+R600InstrInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/R600InstrInfo.cpp
+END
+R600ControlFlowFinalizer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/R600ControlFlowFinalizer.cpp
+END
+AMDILIntrinsicInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/207197/llvm/trunk/lib/Target/R600/AMDILIntrinsicInfo.cpp
+END
+AMDGPUInstructions.td
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/210827/llvm/trunk/lib/Target/R600/AMDGPUInstructions.td
+END
+R600InstrFormats.td
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/189979/llvm/trunk/lib/Target/R600/R600InstrFormats.td
+END
+R600Defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/200018/llvm/trunk/lib/Target/R600/R600Defines.h
+END
+SIInstrInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/210756/llvm/trunk/lib/Target/R600/SIInstrInfo.td
+END
+AMDILRegisterInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/169915/llvm/trunk/lib/Target/R600/AMDILRegisterInfo.td
+END
+R600RegisterInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/193179/llvm/trunk/lib/Target/R600/R600RegisterInfo.td
+END
+SIAnnotateControlFlow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/SIAnnotateControlFlow.cpp
+END
+SIISelLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/210666/llvm/trunk/lib/Target/R600/SIISelLowering.cpp
+END
+R600Instructions.td
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/210703/llvm/trunk/lib/Target/R600/R600Instructions.td
+END
+AMDGPU.td
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/209027/llvm/trunk/lib/Target/R600/AMDGPU.td
+END
+AMDGPUFrameLowering.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/207610/llvm/trunk/lib/Target/R600/AMDGPUFrameLowering.h
+END
+AMDILBase.td
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/183559/llvm/trunk/lib/Target/R600/AMDILBase.td
+END
+SIInstrInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/SIInstrInfo.cpp
+END
+SIInsertWaits.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/SIInsertWaits.cpp
+END
+SIInstrFormats.td
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/209027/llvm/trunk/lib/Target/R600/SIInstrFormats.td
+END
+AMDILCFGStructurizer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/AMDILCFGStructurizer.cpp
+END
+AMDGPUMachineFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/195064/llvm/trunk/lib/Target/R600/AMDGPUMachineFunction.h
+END
+R600RegisterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/R600RegisterInfo.h
+END
+AMDGPUTargetMachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/AMDGPUTargetMachine.h
+END
+AMDGPUInstrInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/AMDGPUInstrInfo.h
+END
+SIDefines.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/194625/llvm/trunk/lib/Target/R600/SIDefines.h
+END
+AMDGPUConvertToISA.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/AMDGPUConvertToISA.cpp
+END
+R600ISelLowering.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/210885/llvm/trunk/lib/Target/R600/R600ISelLowering.h
+END
+SIRegisterInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/207661/llvm/trunk/lib/Target/R600/SIRegisterInfo.td
+END
+SIFixSGPRCopies.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208887/llvm/trunk/lib/Target/R600/SIFixSGPRCopies.cpp
+END
+SILowerI1Copies.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208885/llvm/trunk/lib/Target/R600/SILowerI1Copies.cpp
+END
+SIInstructions.td
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/210827/llvm/trunk/lib/Target/R600/SIInstructions.td
+END
+Processors.td
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/207846/llvm/trunk/lib/Target/R600/Processors.td
+END
+AMDGPUAsmPrinter.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/AMDGPUAsmPrinter.h
+END
+R600InstrInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/R600InstrInfo.h
+END
+AMDILIntrinsicInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/AMDILIntrinsicInfo.h
+END
+R600TextureIntrinsicsReplacer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/R600TextureIntrinsicsReplacer.cpp
+END
+EvergreenInstructions.td
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/210702/llvm/trunk/lib/Target/R600/EvergreenInstructions.td
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/169915/llvm/trunk/lib/Target/R600/Makefile
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/207661/llvm/trunk/lib/Target/R600/CMakeLists.txt
+END
+AMDGPUInstrInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/210827/llvm/trunk/lib/Target/R600/AMDGPUInstrInfo.td
+END
+SIRegisterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/SIRegisterInfo.h
+END
+AMDGPUISelLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/210885/llvm/trunk/lib/Target/R600/AMDGPUISelLowering.cpp
+END
+R700Instructions.td
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/204615/llvm/trunk/lib/Target/R600/R700Instructions.td
+END
+SIISelLowering.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/210666/llvm/trunk/lib/Target/R600/SIISelLowering.h
+END
+R600RegisterInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/R600RegisterInfo.cpp
+END
+AMDGPUIntrinsics.td
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/210827/llvm/trunk/lib/Target/R600/AMDGPUIntrinsics.td
+END
+AMDGPUMachineFunction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/195064/llvm/trunk/lib/Target/R600/AMDGPUMachineFunction.cpp
+END
+AMDGPUMCInstLower.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/209028/llvm/trunk/lib/Target/R600/AMDGPUMCInstLower.h
+END
+R600MachineScheduler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/R600MachineScheduler.cpp
+END
+SIInstrInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/SIInstrInfo.h
+END
+SILowerControlFlow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/207661/llvm/trunk/lib/Target/R600/SILowerControlFlow.cpp
+END
+AMDGPUAsmPrinter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/AMDGPUAsmPrinter.cpp
+END
+R600Intrinsics.td
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/194484/llvm/trunk/lib/Target/R600/R600Intrinsics.td
+END
+R600OptimizeVectorRegisters.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/R600OptimizeVectorRegisters.cpp
+END
+AMDGPUISelDAGToDAG.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/AMDGPUISelDAGToDAG.cpp
+END
+R600Schedule.td
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/185162/llvm/trunk/lib/Target/R600/R600Schedule.td
+END
+R600ExpandSpecialInstrs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/R600ExpandSpecialInstrs.cpp
+END
+R600ClauseMergePass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/R600ClauseMergePass.cpp
+END
+SIRegisterInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/SIRegisterInfo.cpp
+END
+AMDGPUTargetTransformInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/AMDGPUTargetTransformInfo.cpp
+END
+SITypeRewriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/SITypeRewriter.cpp
+END
+AMDGPURegisterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/AMDGPURegisterInfo.h
+END
+AMDGPUSubtarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/AMDGPUSubtarget.h
+END
+R600MachineFunctionInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/207503/llvm/trunk/lib/Target/R600/R600MachineFunctionInfo.h
+END
+AMDGPUMCInstLower.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/210869/llvm/trunk/lib/Target/R600/AMDGPUMCInstLower.cpp
+END
+SIIntrinsics.td
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/200196/llvm/trunk/lib/Target/R600/SIIntrinsics.td
+END
+AMDGPUISelLowering.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/210827/llvm/trunk/lib/Target/R600/AMDGPUISelLowering.h
+END
+AMDILInstrInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/210827/llvm/trunk/lib/Target/R600/AMDILInstrInfo.td
+END
+AMDILISelLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/210567/llvm/trunk/lib/Target/R600/AMDILISelLowering.cpp
+END

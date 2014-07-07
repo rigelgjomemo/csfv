@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/210771/llvm/trunk/test/CodeGen/Mips/Fast-ISel
+END
+simplestorei.ll
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/208923/llvm/trunk/test/CodeGen/Mips/Fast-ISel/simplestorei.ll
+END
+simplestore.ll
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/207790/llvm/trunk/test/CodeGen/Mips/Fast-ISel/simplestore.ll
+END
+nullvoid.ll
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/207565/llvm/trunk/test/CodeGen/Mips/Fast-ISel/nullvoid.ll
+END
+simplestorefp1.ll
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/210771/llvm/trunk/test/CodeGen/Mips/Fast-ISel/simplestorefp1.ll
+END

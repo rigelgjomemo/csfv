@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/210496/llvm/trunk/test/DebugInfo/AArch64
+END
+dwarfdump.ll
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/203256/llvm/trunk/test/DebugInfo/AArch64/dwarfdump.ll
+END
+lit.local.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/210496/llvm/trunk/test/DebugInfo/AArch64/lit.local.cfg
+END
+struct_by_value.ll
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/210492/llvm/trunk/test/DebugInfo/AArch64/struct_by_value.ll
+END
+eh_frame_personality.ll
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/174170/llvm/trunk/test/DebugInfo/AArch64/eh_frame_personality.ll
+END
+eh_frame.s
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/180671/llvm/trunk/test/DebugInfo/AArch64/eh_frame.s
+END

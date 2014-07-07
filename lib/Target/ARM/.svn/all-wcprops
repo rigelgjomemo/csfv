@@ -1,0 +1,491 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/llvm-project/!svn/ver/210862/llvm/trunk/lib/Target/ARM
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/170578/llvm/trunk/lib/Target/ARM/Makefile
+END
+Thumb1InstrInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/204548/llvm/trunk/lib/Target/ARM/Thumb1InstrInfo.cpp
+END
+ARMScheduleV6.td
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/205583/llvm/trunk/lib/Target/ARM/ARMScheduleV6.td
+END
+ARMTargetTransformInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/209377/llvm/trunk/lib/Target/ARM/ARMTargetTransformInfo.cpp
+END
+Thumb2ITBlockPass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/206842/llvm/trunk/lib/Target/ARM/Thumb2ITBlockPass.cpp
+END
+ARMRegisterInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/204548/llvm/trunk/lib/Target/ARM/ARMRegisterInfo.cpp
+END
+ARMInstrVFP.td
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/198697/llvm/trunk/lib/Target/ARM/ARMInstrVFP.td
+END
+Thumb2InstrInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/204548/llvm/trunk/lib/Target/ARM/Thumb2InstrInfo.h
+END
+ARMCodeEmitter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/207197/llvm/trunk/lib/Target/ARM/ARMCodeEmitter.cpp
+END
+ARMSubtarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/210862/llvm/trunk/lib/Target/ARM/ARMSubtarget.h
+END
+ARMHazardRecognizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/207394/llvm/trunk/lib/Target/ARM/ARMHazardRecognizer.h
+END
+ARMMCInstLower.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/204548/llvm/trunk/lib/Target/ARM/ARMMCInstLower.cpp
+END
+ARMFPUName.def
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/198313/llvm/trunk/lib/Target/ARM/ARMFPUName.def
+END
+ARMJITInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/203433/llvm/trunk/lib/Target/ARM/ARMJITInfo.h
+END
+ARMFastISel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/208538/llvm/trunk/lib/Target/ARM/ARMFastISel.cpp
+END
+ARMConstantIslandPass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/207197/llvm/trunk/lib/Target/ARM/ARMConstantIslandPass.cpp
+END
+ARMScheduleA9.td
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/198125/llvm/trunk/lib/Target/ARM/ARMScheduleA9.td
+END
+MLxExpansionPass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/207197/llvm/trunk/lib/Target/ARM/MLxExpansionPass.cpp
+END
+ARMSelectionDAGInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/210859/llvm/trunk/lib/Target/ARM/ARMSelectionDAGInfo.cpp
+END
+ARMAsmPrinter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/209656/llvm/trunk/lib/Target/ARM/ARMAsmPrinter.cpp
+END
+ARMMachineFunctionInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/150878/llvm/trunk/lib/Target/ARM/ARMMachineFunctionInfo.cpp
+END
+Thumb1FrameLowering.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/209980/llvm/trunk/lib/Target/ARM/Thumb1FrameLowering.h
+END
+Thumb2RegisterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/204548/llvm/trunk/lib/Target/ARM/Thumb2RegisterInfo.h
+END
+README-Thumb2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/78968/llvm/trunk/lib/Target/ARM/README-Thumb2.txt
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/159864/llvm/trunk/lib/Target/ARM/README.txt
+END
+Thumb2InstrInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/204548/llvm/trunk/lib/Target/ARM/Thumb2InstrInfo.cpp
+END
+ARMFPUName.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/193524/llvm/trunk/lib/Target/ARM/ARMFPUName.h
+END
+Thumb1InstrInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/204548/llvm/trunk/lib/Target/ARM/Thumb1InstrInfo.h
+END
+ARMHazardRecognizer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/207197/llvm/trunk/lib/Target/ARM/ARMHazardRecognizer.cpp
+END
+ARMInstrNEON.td
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/208538/llvm/trunk/lib/Target/ARM/ARMInstrNEON.td
+END
+ARMRegisterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/204548/llvm/trunk/lib/Target/ARM/ARMRegisterInfo.h
+END
+ARMBaseInstrInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/210280/llvm/trunk/lib/Target/ARM/ARMBaseInstrInfo.cpp
+END
+ARMISelLowering.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/210489/llvm/trunk/lib/Target/ARM/ARMISelLowering.h
+END
+ARMScheduleA8.td
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/161471/llvm/trunk/lib/Target/ARM/ARMScheduleA8.td
+END
+ARMInstrFormats.td
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/207420/llvm/trunk/lib/Target/ARM/ARMInstrFormats.td
+END
+A15SDOptimizer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/207197/llvm/trunk/lib/Target/ARM/A15SDOptimizer.cpp
+END
+ARMTargetObjectFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/207394/llvm/trunk/lib/Target/ARM/ARMTargetObjectFile.h
+END
+ARMInstrThumb.td
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/209390/llvm/trunk/lib/Target/ARM/ARMInstrThumb.td
+END
+ARMRegisterInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/205583/llvm/trunk/lib/Target/ARM/ARMRegisterInfo.td
+END
+ARMAsmPrinter.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/207394/llvm/trunk/lib/Target/ARM/ARMAsmPrinter.h
+END
+ARMMachineFunctionInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/205430/llvm/trunk/lib/Target/ARM/ARMMachineFunctionInfo.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/206485/llvm/trunk/lib/Target/ARM/CMakeLists.txt
+END
+ARMInstrInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/210489/llvm/trunk/lib/Target/ARM/ARMInstrInfo.td
+END
+ARMBaseRegisterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/207394/llvm/trunk/lib/Target/ARM/ARMBaseRegisterInfo.h
+END
+ARMISelLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/210489/llvm/trunk/lib/Target/ARM/ARMISelLowering.cpp
+END
+ARM.td
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/205309/llvm/trunk/lib/Target/ARM/ARM.td
+END
+ARMFrameLowering.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/207511/llvm/trunk/lib/Target/ARM/ARMFrameLowering.h
+END
+README-Thumb.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/208992/llvm/trunk/lib/Target/ARM/README-Thumb.txt
+END
+Thumb2SizeReduction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/207197/llvm/trunk/lib/Target/ARM/Thumb2SizeReduction.cpp
+END
+ARMPerfectShuffle.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/150878/llvm/trunk/lib/Target/ARM/ARMPerfectShuffle.h
+END
+ARMBaseInstrInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/210280/llvm/trunk/lib/Target/ARM/ARMBaseInstrInfo.h
+END
+ARMTargetObjectFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/208166/llvm/trunk/lib/Target/ARM/ARMTargetObjectFile.cpp
+END
+ARMTargetMachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/210862/llvm/trunk/lib/Target/ARM/ARMTargetMachine.h
+END
+ARMExpandPseudoInsts.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/209267/llvm/trunk/lib/Target/ARM/ARMExpandPseudoInsts.cpp
+END
+ARMConstantPoolValue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/190779/llvm/trunk/lib/Target/ARM/ARMConstantPoolValue.cpp
+END
+ARMInstrInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/204548/llvm/trunk/lib/Target/ARM/ARMInstrInfo.h
+END
+ARMOptimizeBarriersPass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/207511/llvm/trunk/lib/Target/ARM/ARMOptimizeBarriersPass.cpp
+END
+ARMCallingConv.td
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/208413/llvm/trunk/lib/Target/ARM/ARMCallingConv.td
+END
+ARM.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/206485/llvm/trunk/lib/Target/ARM/ARM.h
+END
+Thumb1RegisterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/207394/llvm/trunk/lib/Target/ARM/Thumb1RegisterInfo.h
+END
+ARMRelocations.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/150878/llvm/trunk/lib/Target/ARM/ARMRelocations.h
+END
+LLVMBuild.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/196881/llvm/trunk/lib/Target/ARM/LLVMBuild.txt
+END
+ARMISelDAGToDAG.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/209386/llvm/trunk/lib/Target/ARM/ARMISelDAGToDAG.cpp
+END
+ARMBaseRegisterInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/209895/llvm/trunk/lib/Target/ARM/ARMBaseRegisterInfo.cpp
+END
+ARMScheduleSwift.td
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/200018/llvm/trunk/lib/Target/ARM/ARMScheduleSwift.td
+END
+ARMLoadStoreOptimizer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/210542/llvm/trunk/lib/Target/ARM/ARMLoadStoreOptimizer.cpp
+END
+ARMSubtarget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/210862/llvm/trunk/lib/Target/ARM/ARMSubtarget.cpp
+END
+ARMFrameLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/209895/llvm/trunk/lib/Target/ARM/ARMFrameLowering.cpp
+END
+ARMJITInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/206842/llvm/trunk/lib/Target/ARM/ARMJITInfo.cpp
+END
+ARMCallingConv.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/209650/llvm/trunk/lib/Target/ARM/ARMCallingConv.h
+END
+ARMInstrThumb2.td
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/209390/llvm/trunk/lib/Target/ARM/ARMInstrThumb2.td
+END
+ARMInstrInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/203433/llvm/trunk/lib/Target/ARM/ARMInstrInfo.cpp
+END
+ARMTargetMachine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/210862/llvm/trunk/lib/Target/ARM/ARMTargetMachine.cpp
+END
+LICENSE.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/180797/llvm/trunk/lib/Target/ARM/LICENSE.TXT
+END
+Thumb1RegisterInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/205453/llvm/trunk/lib/Target/ARM/Thumb1RegisterInfo.cpp
+END
+ARMSchedule.td
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/183441/llvm/trunk/lib/Target/ARM/ARMSchedule.td
+END
+Thumb2RegisterInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/204548/llvm/trunk/lib/Target/ARM/Thumb2RegisterInfo.cpp
+END
+ARMSelectionDAGInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/210859/llvm/trunk/lib/Target/ARM/ARMSelectionDAGInfo.h
+END
+Thumb1FrameLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/205610/llvm/trunk/lib/Target/ARM/Thumb1FrameLowering.cpp
+END
+ARMFeatures.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/206116/llvm/trunk/lib/Target/ARM/ARMFeatures.h
+END
+ARMConstantPoolValue.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/203433/llvm/trunk/lib/Target/ARM/ARMConstantPoolValue.h
+END

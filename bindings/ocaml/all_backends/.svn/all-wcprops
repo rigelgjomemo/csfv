@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/207793/llvm/trunk/bindings/ocaml/all_backends
+END
+llvm_all_backends.mli
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/207793/llvm/trunk/bindings/ocaml/all_backends/llvm_all_backends.mli
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/207793/llvm/trunk/bindings/ocaml/all_backends/Makefile
+END
+all_backends_ocaml.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/207793/llvm/trunk/bindings/ocaml/all_backends/all_backends_ocaml.c
+END
+llvm_all_backends.ml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/207793/llvm/trunk/bindings/ocaml/all_backends/llvm_all_backends.ml
+END

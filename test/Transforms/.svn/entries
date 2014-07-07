@@ -1,0 +1,229 @@
+10
+
+dir
+210885
+http://llvm.org/svn/llvm-project/llvm/trunk/test/Transforms
+http://llvm.org/svn/llvm-project
+
+
+
+2014-06-12T21:16:19.537164Z
+210828
+dexonsmith
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+91177308-0d34-0410-b5e6-96231b3b80d8
+
+GlobalMerge
+dir
+
+GlobalOpt
+dir
+
+LICM
+dir
+
+LowerAtomic
+dir
+
+ScalarRepl
+dir
+
+ArgumentPromotion
+dir
+
+TailCallElim
+dir
+
+ADCE
+dir
+
+LoopDeletion
+dir
+
+IndVarSimplify
+dir
+
+ObjCARC
+dir
+
+AtomicExpandLoadLinked
+dir
+
+AddDiscriminators
+dir
+
+LoopUnroll
+dir
+
+ConstantMerge
+dir
+
+LowerSwitch
+dir
+
+SLPVectorizer
+dir
+
+BBVectorize
+dir
+
+LoopStrengthReduce
+dir
+
+DebugIR
+dir
+
+CodeGenPrepare
+dir
+
+SCCP
+dir
+
+LoopReroll
+dir
+
+GVN
+dir
+
+Scalarizer
+dir
+
+MetaRenamer
+dir
+
+JumpThreading
+dir
+
+SampleProfile
+dir
+
+Reassociate
+dir
+
+TailDup
+dir
+
+DeadStoreElimination
+dir
+
+PruneEH
+dir
+
+MergeFunc
+dir
+
+GlobalDCE
+dir
+
+SimplifyCFG
+dir
+
+LoadCombine
+dir
+
+Inline
+dir
+
+LowerExpectIntrinsic
+dir
+
+LoopSimplify
+dir
+
+ConstProp
+dir
+
+LoopIdiom
+dir
+
+ConstantHoisting
+dir
+
+LoopUnswitch
+dir
+
+LoopVectorize
+dir
+
+MemCpyOpt
+dir
+
+StructurizeCFG
+dir
+
+IPConstantProp
+dir
+
+Internalize
+dir
+
+CorrelatedValuePropagation
+dir
+
+LoopRotate
+dir
+
+PhaseOrdering
+dir
+
+InstSimplify
+dir
+
+Reg2Mem
+dir
+
+Mem2Reg
+dir
+
+DeadArgElim
+dir
+
+BranchFolding
+dir
+
+SeparateConstOffsetFromGEP
+dir
+
+FunctionAttrs
+dir
+
+Sink
+dir
+
+SROA
+dir
+
+LowerInvoke
+dir
+
+LCSSA
+dir
+
+CodeExtractor
+dir
+
+EarlyCSE
+dir
+
+GCOVProfiling
+dir
+
+InstCombine
+dir
+
+StripSymbols
+dir
+
