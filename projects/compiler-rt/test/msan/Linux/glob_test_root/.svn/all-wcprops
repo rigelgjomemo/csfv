@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/Linux/glob_test_root
+END
+aa
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/Linux/glob_test_root/aa
+END
+ab
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/Linux/glob_test_root/ab
+END
+ba
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/Linux/glob_test_root/ba
+END

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/205308/compiler-rt/trunk/test/asan/Unit
+END
+lit.site.cfg.in
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/205308/compiler-rt/trunk/test/asan/Unit/lit.site.cfg.in
+END

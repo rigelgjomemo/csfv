@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/llvm-project/!svn/ver/210655/compiler-rt/trunk/test/asan
+END
+lit.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/209887/compiler-rt/trunk/test/asan/lit.cfg
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/210465/compiler-rt/trunk/test/asan/CMakeLists.txt
+END
+lit.site.cfg.in
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/208240/compiler-rt/trunk/test/asan/lit.site.cfg.in
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/llvm-project/!svn/ver/210202/compiler-rt/trunk/lib/dfsan
+END
+dfsan.syms.extra
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/189620/compiler-rt/trunk/lib/dfsan/dfsan.syms.extra
+END
+libc_ubuntu1204_abilist.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/188490/compiler-rt/trunk/lib/dfsan/libc_ubuntu1204_abilist.txt
+END
+dfsan_custom.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/207131/compiler-rt/trunk/lib/dfsan/dfsan_custom.cc
+END
+done_abilist.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/207131/compiler-rt/trunk/lib/dfsan/done_abilist.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/207722/compiler-rt/trunk/lib/dfsan/CMakeLists.txt
+END
+dfsan.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/204854/compiler-rt/trunk/lib/dfsan/dfsan.cc
+END
+dfsan_interceptors.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/194955/compiler-rt/trunk/lib/dfsan/dfsan_interceptors.cc
+END
+dfsan.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/210202/compiler-rt/trunk/lib/dfsan/dfsan.h
+END
+Makefile.mk
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/187924/compiler-rt/trunk/lib/dfsan/Makefile.mk
+END

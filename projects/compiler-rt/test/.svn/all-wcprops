@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/llvm-project/!svn/ver/210655/compiler-rt/trunk/test
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/205256/compiler-rt/trunk/test/CMakeLists.txt
+END
+lit.common.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/210534/compiler-rt/trunk/test/lit.common.cfg
+END
+lit.common.configured.in
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/209256/compiler-rt/trunk/test/lit.common.configured.in
+END

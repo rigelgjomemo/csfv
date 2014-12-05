@@ -1,0 +1,905 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/209986/compiler-rt/trunk/lib/builtins
+END
+absvsi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/absvsi2.c
+END
+mulodi4.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/mulodi4.c
+END
+ctzsi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/ctzsi2.c
+END
+floatuntidf.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floatuntidf.c
+END
+comparedf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/208841/compiler-rt/trunk/lib/builtins/comparedf2.c
+END
+udivti3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/udivti3.c
+END
+ashldi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/ashldi3.c
+END
+fp_trunc_impl.inc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/209779/compiler-rt/trunk/lib/builtins/fp_trunc_impl.inc
+END
+divsc3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/divsc3.c
+END
+floatunsisf.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floatunsisf.c
+END
+muloti4.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/muloti4.c
+END
+enable_execute_stack.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/enable_execute_stack.c
+END
+negvdi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/negvdi2.c
+END
+comparetf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/208841/compiler-rt/trunk/lib/builtins/comparetf2.c
+END
+ucmpdi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/ucmpdi2.c
+END
+umoddi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/umoddi3.c
+END
+fixunsxfsi.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/fixunsxfsi.c
+END
+ashlti3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/ashlti3.c
+END
+fixdfdi.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/fixdfdi.c
+END
+ffsdi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/ffsdi2.c
+END
+addvdi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/addvdi3.c
+END
+negvti2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/negvti2.c
+END
+trunctfdf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/209782/compiler-rt/trunk/lib/builtins/trunctfdf2.c
+END
+ucmpti2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/ucmpti2.c
+END
+mulvdi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/mulvdi3.c
+END
+fp_extend_impl.inc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/209781/compiler-rt/trunk/lib/builtins/fp_extend_impl.inc
+END
+umodti3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/umodti3.c
+END
+muldc3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/muldc3.c
+END
+powisf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/powisf2.c
+END
+trampoline_setup.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/trampoline_setup.c
+END
+floatdidf.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/floatdidf.c
+END
+fixdfti.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/fixdfti.c
+END
+ffsti2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/ffsti2.c
+END
+addvti3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/addvti3.c
+END
+subvsi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/subvsi3.c
+END
+divsf3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/divsf3.c
+END
+mulvti3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/mulvti3.c
+END
+eprintf.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/eprintf.c
+END
+int_math.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/int_math.h
+END
+fixsfsi.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/fixsfsi.c
+END
+mulxc3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/mulxc3.c
+END
+floattidf.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floattidf.c
+END
+fixunssfdi.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/fixunssfdi.c
+END
+negsf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/negsf2.c
+END
+paritysi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/paritysi2.c
+END
+subdf3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/subdf3.c
+END
+floatsisf.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floatsisf.c
+END
+muldf3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/209741/compiler-rt/trunk/lib/builtins/muldf3.c
+END
+fp_lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/205344/compiler-rt/trunk/lib/builtins/fp_lib.h
+END
+divsi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/divsi3.c
+END
+fixunssfti.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/fixunssfti.c
+END
+Makefile.mk
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/Makefile.mk
+END
+divmodsi4.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/divmodsi4.c
+END
+floatunsidf.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floatunsidf.c
+END
+popcountsi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/popcountsi2.c
+END
+udivmodsi4.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/udivmodsi4.c
+END
+fixunsxfdi.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/fixunsxfdi.c
+END
+clzdi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/clzdi2.c
+END
+gcc_personality_v0.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/203743/compiler-rt/trunk/lib/builtins/gcc_personality_v0.c
+END
+absvdi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/absvdi2.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/209473/compiler-rt/trunk/lib/builtins/CMakeLists.txt
+END
+muldi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/muldi3.c
+END
+modsi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/modsi3.c
+END
+ctzdi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/ctzdi2.c
+END
+addsf3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/209740/compiler-rt/trunk/lib/builtins/addsf3.c
+END
+apple_versioning.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/apple_versioning.c
+END
+fixunsxfti.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/fixunsxfti.c
+END
+clzti2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/clzti2.c
+END
+absvti2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/absvti2.c
+END
+divdc3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/divdc3.c
+END
+multi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/multi3.c
+END
+ctzti2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/ctzti2.c
+END
+fp_extend.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/209781/compiler-rt/trunk/lib/builtins/fp_extend.h
+END
+fixunsdfsi.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/fixunsdfsi.c
+END
+floatundixf.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floatundixf.c
+END
+int_lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/208593/compiler-rt/trunk/lib/builtins/int_lib.h
+END
+udivsi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/udivsi3.c
+END
+mulosi4.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/mulosi4.c
+END
+fixsfdi.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/fixsfdi.c
+END
+divxc3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/divxc3.c
+END
+comparesf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/208841/compiler-rt/trunk/lib/builtins/comparesf2.c
+END
+floatuntixf.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floatuntixf.c
+END
+clear_cache.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/208591/compiler-rt/trunk/lib/builtins/clear_cache.c
+END
+powidf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/powidf2.c
+END
+floatsidf.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floatsidf.c
+END
+fixsfti.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/fixsfti.c
+END
+negvsi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/negvsi2.c
+END
+extenddftf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/209783/compiler-rt/trunk/lib/builtins/extenddftf2.c
+END
+floatundisf.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/floatundisf.c
+END
+subvdi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/subvdi3.c
+END
+divdf3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/208841/compiler-rt/trunk/lib/builtins/divdf3.c
+END
+truncdfsf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/209779/compiler-rt/trunk/lib/builtins/truncdfsf2.c
+END
+umodsi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/umodsi3.c
+END
+assembly.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/209095/compiler-rt/trunk/lib/builtins/assembly.h
+END
+int_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/int_util.c
+END
+powitf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/powitf2.c
+END
+int_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/202297/compiler-rt/trunk/lib/builtins/int_util.h
+END
+addvsi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/addvsi3.c
+END
+floatuntisf.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floatuntisf.c
+END
+powixf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/powixf2.c
+END
+divtf3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/209886/compiler-rt/trunk/lib/builtins/divtf3.c
+END
+subvti3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/subvti3.c
+END
+trunctfsf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/209782/compiler-rt/trunk/lib/builtins/trunctfsf2.c
+END
+fixxfdi.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/fixxfdi.c
+END
+mulvsi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/mulvsi3.c
+END
+negdf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/negdf2.c
+END
+mulsc3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/mulsc3.c
+END
+paritydi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/paritydi2.c
+END
+atomic.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/atomic.c
+END
+floatdixf.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floatdixf.c
+END
+fixxfti.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/fixxfti.c
+END
+divdi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/divdi3.c
+END
+divmoddi4.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/divmoddi4.c
+END
+parityti2.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/parityti2.c
+END
+fp_mul_impl.inc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/209741/compiler-rt/trunk/lib/builtins/fp_mul_impl.inc
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/209778/compiler-rt/trunk/lib/builtins/README.txt
+END
+fixdfsi.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/fixdfsi.c
+END
+ashrdi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/ashrdi3.c
+END
+floattixf.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floattixf.c
+END
+divti3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/divti3.c
+END
+fixunsdfdi.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/fixunsdfdi.c
+END
+subsf3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/subsf3.c
+END
+popcountdi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/popcountdi2.c
+END
+negdi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/negdi2.c
+END
+udivmoddi4.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/204193/compiler-rt/trunk/lib/builtins/udivmoddi4.c
+END
+lshrdi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/lshrdi3.c
+END
+mulsf3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/209741/compiler-rt/trunk/lib/builtins/mulsf3.c
+END
+floatdisf.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/floatdisf.c
+END
+extendsfdf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/209781/compiler-rt/trunk/lib/builtins/extendsfdf2.c
+END
+ashrti3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/ashrti3.c
+END
+cmpdi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/cmpdi2.c
+END
+moddi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202592/compiler-rt/trunk/lib/builtins/moddi3.c
+END
+int_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/209133/compiler-rt/trunk/lib/builtins/int_types.h
+END
+fixunsdfti.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/fixunsdfti.c
+END
+adddf3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/209740/compiler-rt/trunk/lib/builtins/adddf3.c
+END
+fp_trunc.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/209779/compiler-rt/trunk/lib/builtins/fp_trunc.h
+END
+fp_add_impl.inc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/209740/compiler-rt/trunk/lib/builtins/fp_add_impl.inc
+END
+popcountti2.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/popcountti2.c
+END
+negti2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/negti2.c
+END
+udivmodti4.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/204193/compiler-rt/trunk/lib/builtins/udivmodti4.c
+END
+lshrti3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/lshrti3.c
+END
+floattisf.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floattisf.c
+END
+extendsftf2.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/209783/compiler-rt/trunk/lib/builtins/extendsftf2.c
+END
+cmpti2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/cmpti2.c
+END
+modti3.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/202592/compiler-rt/trunk/lib/builtins/modti3.c
+END
+floatundidf.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/floatundidf.c
+END
+fixunssfsi.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/fixunssfsi.c
+END
+int_endianness.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/int_endianness.h
+END
+clzsi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/clzsi2.c
+END
+udivdi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/202591/compiler-rt/trunk/lib/builtins/udivdi3.c
+END

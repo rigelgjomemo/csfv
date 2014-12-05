@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/210108/compiler-rt/trunk/lib/sanitizer_common/scripts
+END
+cpplint.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/208841/compiler-rt/trunk/lib/sanitizer_common/scripts/cpplint.py
+END
+sancov.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/210108/compiler-rt/trunk/lib/sanitizer_common/scripts/sancov.py
+END
+litlint_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/llvm-project/!svn/ver/208907/compiler-rt/trunk/lib/sanitizer_common/scripts/litlint_test.py
+END
+litlint.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/208907/compiler-rt/trunk/lib/sanitizer_common/scripts/litlint.py
+END
+check_lint.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/208826/compiler-rt/trunk/lib/sanitizer_common/scripts/check_lint.sh
+END
+gen_dynamic_list.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/197493/compiler-rt/trunk/lib/sanitizer_common/scripts/gen_dynamic_list.py
+END

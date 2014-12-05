@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/201398/compiler-rt/trunk/lib/BlocksRuntime
+END
+Block_private.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201390/compiler-rt/trunk/lib/BlocksRuntime/Block_private.h
+END
+data.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/201390/compiler-rt/trunk/lib/BlocksRuntime/data.c
+END
+Block.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/201390/compiler-rt/trunk/lib/BlocksRuntime/Block.h
+END
+runtime.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/201390/compiler-rt/trunk/lib/BlocksRuntime/runtime.c
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/llvm-project/!svn/ver/209473/compiler-rt/trunk/make
+END
+lib_platforms.mk
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/93816/compiler-rt/trunk/make/lib_platforms.mk
+END
+util.mk
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/116517/compiler-rt/trunk/make/util.mk
+END
+filter-inputs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/74869/compiler-rt/trunk/make/filter-inputs
+END
+lib_info.mk
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/168625/compiler-rt/trunk/make/lib_info.mk
+END
+lib_util.mk
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/93720/compiler-rt/trunk/make/lib_util.mk
+END
+config.mk
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/204241/compiler-rt/trunk/make/config.mk
+END
+subdir.mk
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/make/subdir.mk
+END
+options.mk
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/168625/compiler-rt/trunk/make/options.mk
+END
+AppleBI.mk
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/193944/compiler-rt/trunk/make/AppleBI.mk
+END

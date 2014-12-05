@@ -1,0 +1,515 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/209985/compiler-rt/trunk/lib/builtins/arm
+END
+ltdf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/ltdf2vfp.S
+END
+bswapsi2.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/209985/compiler-rt/trunk/lib/builtins/arm/bswapsi2.S
+END
+sync_fetch_and_min_4.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_min_4.S
+END
+sync_fetch_and_max_4.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_max_4.S
+END
+softfloat-alias.list
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/arm/softfloat-alias.list
+END
+gtsf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/gtsf2vfp.S
+END
+divsi3.S
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/209985/compiler-rt/trunk/lib/builtins/arm/divsi3.S
+END
+sync_fetch_and_min_8.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_min_8.S
+END
+subdf3vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/subdf3vfp.S
+END
+sync_fetch_and_max_8.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_max_8.S
+END
+sync_fetch_and_sub_4.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_sub_4.S
+END
+muldf3vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/muldf3vfp.S
+END
+aeabi_fcmp.S
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/aeabi_fcmp.S
+END
+switch32.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208603/compiler-rt/trunk/lib/builtins/arm/switch32.S
+END
+sync_fetch_and_sub_8.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_sub_8.S
+END
+aeabi_idivmod.S
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/aeabi_idivmod.S
+END
+sync_fetch_and_and_4.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_and_4.S
+END
+floatunssidfvfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/floatunssidfvfp.S
+END
+eqdf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/eqdf2vfp.S
+END
+unordsf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/unordsf2vfp.S
+END
+switchu8.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208603/compiler-rt/trunk/lib/builtins/arm/switchu8.S
+END
+aeabi_ldivmod.S
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/aeabi_ldivmod.S
+END
+sync_fetch_and_and_8.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_and_8.S
+END
+negdf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/negdf2vfp.S
+END
+sync_fetch_and_xor_4.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_xor_4.S
+END
+udivsi3.S
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/209985/compiler-rt/trunk/lib/builtins/arm/udivsi3.S
+END
+sync_fetch_and_xor_8.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_xor_8.S
+END
+lesf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/lesf2vfp.S
+END
+clzdi2.S
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/209985/compiler-rt/trunk/lib/builtins/arm/clzdi2.S
+END
+udivmodsi4.S
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/209985/compiler-rt/trunk/lib/builtins/arm/udivmodsi4.S
+END
+sync_fetch_and_or_4.S
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_or_4.S
+END
+truncdfsf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/truncdfsf2vfp.S
+END
+sync_fetch_and_or_8.S
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_or_8.S
+END
+modsi3.S
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/209985/compiler-rt/trunk/lib/builtins/arm/modsi3.S
+END
+divmodsi4.S
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/209985/compiler-rt/trunk/lib/builtins/arm/divmodsi4.S
+END
+clzsi2.S
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/209985/compiler-rt/trunk/lib/builtins/arm/clzsi2.S
+END
+floatsisfvfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/floatsisfvfp.S
+END
+ltsf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/ltsf2vfp.S
+END
+fixdfsivfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/fixdfsivfp.S
+END
+nedf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/nedf2vfp.S
+END
+subsf3vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/subsf3vfp.S
+END
+restore_vfp_d8_d15_regs.S
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/208603/compiler-rt/trunk/lib/builtins/arm/restore_vfp_d8_d15_regs.S
+END
+Makefile.mk
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/202819/compiler-rt/trunk/lib/builtins/arm/Makefile.mk
+END
+umodsi3.S
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/209985/compiler-rt/trunk/lib/builtins/arm/umodsi3.S
+END
+mulsf3vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/mulsf3vfp.S
+END
+aeabi_memmove.S
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/aeabi_memmove.S
+END
+fixsfsivfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/fixsfsivfp.S
+END
+extendsfdf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/extendsfdf2vfp.S
+END
+sync_fetch_and_nand_4.S
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_nand_4.S
+END
+divdf3vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/divdf3vfp.S
+END
+eqsf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/eqsf2vfp.S
+END
+save_vfp_d8_d15_regs.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/208603/compiler-rt/trunk/lib/builtins/arm/save_vfp_d8_d15_regs.S
+END
+fixunsdfsivfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/fixunsdfsivfp.S
+END
+sync_fetch_and_nand_8.S
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_nand_8.S
+END
+negsf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/negsf2vfp.S
+END
+comparesf2.S
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/208841/compiler-rt/trunk/lib/builtins/arm/comparesf2.S
+END
+adddf3vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/adddf3vfp.S
+END
+sync_fetch_and_add_4.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_add_4.S
+END
+gedf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/gedf2vfp.S
+END
+aeabi_dcmp.S
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/aeabi_dcmp.S
+END
+sync_fetch_and_add_8.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_add_8.S
+END
+switch16.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208603/compiler-rt/trunk/lib/builtins/arm/switch16.S
+END
+aeabi_memcpy.S
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/aeabi_memcpy.S
+END
+fixunssfsivfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/fixunssfsivfp.S
+END
+gtdf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/gtdf2vfp.S
+END
+sync_fetch_and_umin_4.S
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_umin_4.S
+END
+sync_fetch_and_umax_4.S
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_umax_4.S
+END
+sync_fetch_and_umin_8.S
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_umin_8.S
+END
+floatsidfvfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/floatsidfvfp.S
+END
+sync_fetch_and_umax_8.S
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/202812/compiler-rt/trunk/lib/builtins/arm/sync_fetch_and_umax_8.S
+END
+nesf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/nesf2vfp.S
+END
+switch8.S
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/208603/compiler-rt/trunk/lib/builtins/arm/switch8.S
+END
+floatunssisfvfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/floatunssisfvfp.S
+END
+aeabi_memcmp.S
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/aeabi_memcmp.S
+END
+unorddf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/unorddf2vfp.S
+END
+sync-ops.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/sync-ops.h
+END
+aeabi_uidivmod.S
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/aeabi_uidivmod.S
+END
+aeabi_uldivmod.S
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/aeabi_uldivmod.S
+END
+sync_synchronize.S
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/sync_synchronize.S
+END
+ledf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/ledf2vfp.S
+END
+divsf3vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/divsf3vfp.S
+END
+bswapdi2.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/209985/compiler-rt/trunk/lib/builtins/arm/bswapdi2.S
+END
+aeabi_memset.S
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/aeabi_memset.S
+END
+addsf3vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/addsf3vfp.S
+END
+gesf2vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/arm/gesf2vfp.S
+END

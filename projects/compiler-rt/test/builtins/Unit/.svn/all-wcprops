@@ -1,0 +1,965 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/209886/compiler-rt/trunk/test/builtins/Unit
+END
+comparesf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/comparesf2_test.c
+END
+unordtf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/205312/compiler-rt/trunk/test/builtins/Unit/unordtf2_test.c
+END
+umoddi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/umoddi3_test.c
+END
+floatsisfvfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/floatsisfvfp_test.c
+END
+clzsi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/clzsi2_test.c
+END
+absvsi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/absvsi2_test.c
+END
+nedf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/nedf2vfp_test.c
+END
+letf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/205312/compiler-rt/trunk/test/builtins/Unit/letf2_test.c
+END
+floatunssidfvfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/floatunssidfvfp_test.c
+END
+ctzsi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ctzsi2_test.c
+END
+negdf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/negdf2vfp_test.c
+END
+comparedf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/comparedf2_test.c
+END
+umodti3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/umodti3_test.c
+END
+clzdi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/clzdi2_test.c
+END
+lesf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/lesf2vfp_test.c
+END
+absvdi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/absvdi2_test.c
+END
+ctzdi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ctzdi2_test.c
+END
+unorddf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/unorddf2vfp_test.c
+END
+getf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/205312/compiler-rt/trunk/test/builtins/Unit/getf2_test.c
+END
+clzti2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/clzti2_test.c
+END
+negdi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/negdi2_test.c
+END
+clear_cache_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/clear_cache_test.c
+END
+absvti2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/absvti2_test.c
+END
+negvsi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/negvsi2_test.c
+END
+ctzti2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/ctzti2_test.c
+END
+subsf3vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/subsf3vfp_test.c
+END
+gtdf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/gtdf2vfp_test.c
+END
+mulsf3vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/mulsf3vfp_test.c
+END
+negti2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/negti2_test.c
+END
+powisf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/powisf2_test.c
+END
+divsc3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/divsc3_test.c
+END
+addvsi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/addvsi3_test.c
+END
+endianness.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/endianness.h
+END
+enable_execute_stack_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/enable_execute_stack_test.c
+END
+negvdi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/negvdi2_test.c
+END
+test
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/test
+END
+floatundidf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/floatundidf_test.c
+END
+adddf3vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/adddf3vfp_test.c
+END
+divsi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/divsi3_test.c
+END
+divmodsi4_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/divmodsi4_test.c
+END
+fixdfsivfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixdfsivfp_test.c
+END
+lshrdi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/lshrdi3_test.c
+END
+powidf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/powidf2_test.c
+END
+divdc3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/divdc3_test.c
+END
+floatundisf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/floatundisf_test.c
+END
+addvdi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/addvdi3_test.c
+END
+negvti2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/negvti2_test.c
+END
+floatuntidf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/floatuntidf_test.c
+END
+fixunssfdi_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixunssfdi_test.c
+END
+gesf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/gesf2vfp_test.c
+END
+divdi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/divdi3_test.c
+END
+floatundixf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/floatundixf_test.c
+END
+floatsidfvfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/floatsidfvfp_test.c
+END
+lshrti3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/lshrti3_test.c
+END
+bswapsi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/bswapsi2_test.c
+END
+powitf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/powitf2_test.c
+END
+eqsf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/eqsf2vfp_test.c
+END
+extendsftf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/209783/compiler-rt/trunk/test/builtins/Unit/extendsftf2_test.c
+END
+floatdidf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/floatdidf_test.c
+END
+divtc3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/divtc3_test.c
+END
+ashrdi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ashrdi3_test.c
+END
+fixunsdfsivfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixunsdfsivfp_test.c
+END
+floatuntisf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/floatuntisf_test.c
+END
+addvti3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/addvti3_test.c
+END
+subvsi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/subvsi3_test.c
+END
+divtf3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/209886/compiler-rt/trunk/test/builtins/Unit/divtf3_test.c
+END
+fixunssfsi_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixunssfsi_test.c
+END
+divti3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/divti3_test.c
+END
+fixunssfti_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/fixunssfti_test.c
+END
+mulvsi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/mulvsi3_test.c
+END
+floatuntixf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/floatuntixf_test.c
+END
+ucmpdi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ucmpdi2_test.c
+END
+fp_test.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/205312/compiler-rt/trunk/test/builtins/Unit/fp_test.h
+END
+bswapdi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/bswapdi2_test.c
+END
+floatdisf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/floatdisf_test.c
+END
+mulxc3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/mulxc3_test.c
+END
+floattidf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/floattidf_test.c
+END
+ashrti3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/ashrti3_test.c
+END
+subvdi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/subvdi3_test.c
+END
+floatdixf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/floatdixf_test.c
+END
+eqtf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/205312/compiler-rt/trunk/test/builtins/Unit/eqtf2_test.c
+END
+mulvdi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/mulvdi3_test.c
+END
+ucmpti2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/ucmpti2_test.c
+END
+popcountsi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/popcountsi2_test.c
+END
+floattisf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/floattisf_test.c
+END
+truncdfsf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/truncdfsf2vfp_test.c
+END
+mulosi4_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/mulosi4_test.c
+END
+fixsfdi_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixsfdi_test.c
+END
+modsi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/modsi3_test.c
+END
+subvti3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/subvti3_test.c
+END
+floattixf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/floattixf_test.c
+END
+trunctfsf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/209782/compiler-rt/trunk/test/builtins/Unit/trunctfsf2_test.c
+END
+mulvti3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/mulvti3_test.c
+END
+fixunsdfdi_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixunsdfdi_test.c
+END
+ltsf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ltsf2vfp_test.c
+END
+popcountdi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/popcountdi2_test.c
+END
+ledf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ledf2vfp_test.c
+END
+divsf3vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/divsf3vfp_test.c
+END
+fixsfti_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/fixsfti_test.c
+END
+ffsdi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ffsdi2_test.c
+END
+mulodi4_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/mulodi4_test.c
+END
+moddi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/moddi3_test.c
+END
+trunctfdf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/209782/compiler-rt/trunk/test/builtins/Unit/trunctfdf2_test.c
+END
+fixunsdfsi_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixunsdfsi_test.c
+END
+fixunsdfti_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/fixunsdfti_test.c
+END
+fixunstfdi_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixunstfdi_test.c
+END
+popcountti2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/popcountti2_test.c
+END
+fixunsxfdi_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixunsxfdi_test.c
+END
+udivmodsi4_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/udivmodsi4_test.c
+END
+nesf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/nesf2vfp_test.c
+END
+ffsti2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/ffsti2_test.c
+END
+muloti4_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/muloti4_test.c
+END
+modti3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/modti3_test.c
+END
+negsf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/negsf2vfp_test.c
+END
+subdf3vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/subdf3vfp_test.c
+END
+gcc_personality_test_helper.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/gcc_personality_test_helper.cxx
+END
+muldf3vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/muldf3vfp_test.c
+END
+fixunsxfsi_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixunsxfsi_test.c
+END
+fixunsxfti_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/fixunsxfti_test.c
+END
+udivmoddi4_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/udivmoddi4_test.c
+END
+extenddftf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/209783/compiler-rt/trunk/test/builtins/Unit/extenddftf2_test.c
+END
+fixdfdi_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixdfdi_test.c
+END
+unordsf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/unordsf2vfp_test.c
+END
+gcc_personality_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/gcc_personality_test.c
+END
+paritysi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/paritysi2_test.c
+END
+udivsi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/udivsi3_test.c
+END
+fixsfsivfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixsfsivfp_test.c
+END
+udivmodti4_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/udivmodti4_test.c
+END
+floatunssisfvfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/floatunssisfvfp_test.c
+END
+fixdfti_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/fixdfti_test.c
+END
+fixxfdi_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixxfdi_test.c
+END
+gtsf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/gtsf2vfp_test.c
+END
+gedf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/gedf2vfp_test.c
+END
+mulsc3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/mulsc3_test.c
+END
+paritydi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/paritydi2_test.c
+END
+udivdi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/udivdi3_test.c
+END
+extebdsfdf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/extebdsfdf2vfp_test.c
+END
+fixunssfsivfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/fixunssfsivfp_test.c
+END
+eqdf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/eqdf2vfp_test.c
+END
+netf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/205312/compiler-rt/trunk/test/builtins/Unit/netf2_test.c
+END
+addsf3vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/addsf3vfp_test.c
+END
+fixxfti_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/fixxfti_test.c
+END
+muldc3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/muldc3_test.c
+END
+parityti2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/parityti2_test.c
+END
+ashldi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ashldi3_test.c
+END
+udivti3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/udivti3_test.c
+END
+lttf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/205312/compiler-rt/trunk/test/builtins/Unit/lttf2_test.c
+END
+muldi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/muldi3_test.c
+END
+powixf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/powixf2_test.c
+END
+divxc3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/divxc3_test.c
+END
+ashlti3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/ashlti3_test.c
+END
+multc3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/multc3_test.c
+END
+multi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/multi3_test.c
+END
+cmpdi2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/cmpdi2_test.c
+END
+umodsi3_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/umodsi3_test.c
+END
+gttf2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/205312/compiler-rt/trunk/test/builtins/Unit/gttf2_test.c
+END
+ltdf2vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ltdf2vfp_test.c
+END
+trampoline_setup_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/trampoline_setup_test.c
+END
+divdf3vfp_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/divdf3vfp_test.c
+END
+cmpti2_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/204182/compiler-rt/trunk/test/builtins/Unit/cmpti2_test.c
+END

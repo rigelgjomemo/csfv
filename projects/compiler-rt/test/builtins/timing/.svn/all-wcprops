@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing
+END
+udivdi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/udivdi3.c
+END
+negdi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/negdi2.c
+END
+lshrdi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/lshrdi3.c
+END
+floatdisf.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/floatdisf.c
+END
+time
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/time
+END
+floatundisf.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/floatundisf.c
+END
+moddi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/moddi3.c
+END
+floatdixf.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/floatdixf.c
+END
+divdi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/divdi3.c
+END
+floatundixf.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/floatundixf.c
+END
+ashldi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/ashldi3.c
+END
+timing.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/timing.h
+END
+floatdidf.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/floatdidf.c
+END
+muldi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/muldi3.c
+END
+ashrdi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/ashrdi3.c
+END
+modsi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/modsi3.c
+END
+floatundidf.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/floatundidf.c
+END
+umoddi3.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/timing/umoddi3.c
+END

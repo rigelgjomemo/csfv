@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/202145/compiler-rt/trunk/lib/dfsan/scripts
+END
+check_custom_wrappers.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/202145/compiler-rt/trunk/lib/dfsan/scripts/check_custom_wrappers.sh
+END
+build-libc-list.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/195695/compiler-rt/trunk/lib/dfsan/scripts/build-libc-list.py
+END

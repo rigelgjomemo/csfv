@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/208585/compiler-rt/trunk/lib/builtins/i386
+END
+floatundidf.S
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/floatundidf.S
+END
+umoddi3.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/umoddi3.S
+END
+udivdi3.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/udivdi3.S
+END
+lshrdi3.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/lshrdi3.S
+END
+floatdisf.S
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/floatdisf.S
+END
+floatundisf.S
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/208585/compiler-rt/trunk/lib/builtins/i386/floatundisf.S
+END
+moddi3.S
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/moddi3.S
+END
+floatdixf.S
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/floatdixf.S
+END
+divdi3.S
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/divdi3.S
+END
+Makefile.mk
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/i386/Makefile.mk
+END
+floatundixf.S
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/floatundixf.S
+END
+ashldi3.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/ashldi3.S
+END
+floatdidf.S
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/floatdidf.S
+END
+muldi3.S
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/muldi3.S
+END
+ashrdi3.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208578/compiler-rt/trunk/lib/builtins/i386/ashrdi3.S
+END

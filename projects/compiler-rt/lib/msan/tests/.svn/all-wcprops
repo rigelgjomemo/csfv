@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/210463/compiler-rt/trunk/lib/msan/tests
+END
+msan_test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/210463/compiler-rt/trunk/lib/msan/tests/msan_test.cc
+END
+msan_loadable.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/176818/compiler-rt/trunk/lib/msan/tests/msan_loadable.cc
+END
+msan_test_main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/177718/compiler-rt/trunk/lib/msan/tests/msan_test_main.cc
+END
+msan_test_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/177718/compiler-rt/trunk/lib/msan/tests/msan_test_config.h
+END
+msandr_test_so.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/173800/compiler-rt/trunk/lib/msan/tests/msandr_test_so.cc
+END
+msandr_test_so.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/173800/compiler-rt/trunk/lib/msan/tests/msandr_test_so.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/208451/compiler-rt/trunk/lib/msan/tests/CMakeLists.txt
+END

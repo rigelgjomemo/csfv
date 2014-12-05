@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/wrap_indirect_calls
+END
+wrapper.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/wrap_indirect_calls/wrapper.cc
+END
+one.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/wrap_indirect_calls/one.cc
+END
+caller.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/wrap_indirect_calls/caller.cc
+END
+two.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/wrap_indirect_calls/two.cc
+END
+lit.local.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/wrap_indirect_calls/lit.local.cfg
+END

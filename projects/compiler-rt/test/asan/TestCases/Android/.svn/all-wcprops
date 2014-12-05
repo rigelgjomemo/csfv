@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/210647/compiler-rt/trunk/test/asan/TestCases/Android
+END
+coverage-android.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/210647/compiler-rt/trunk/test/asan/TestCases/Android/coverage-android.cc
+END
+lit.local.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/210098/compiler-rt/trunk/test/asan/TestCases/Android/lit.local.cfg
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/SharedLibs
+END
+dso-origin-so.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/SharedLibs/dso-origin-so.cc
+END
+lit.local.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/SharedLibs/lit.local.cfg
+END
+dso-origin.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/SharedLibs/dso-origin.h
+END

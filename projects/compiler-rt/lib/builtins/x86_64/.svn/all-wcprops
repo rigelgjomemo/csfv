@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/209986/compiler-rt/trunk/lib/builtins/x86_64
+END
+floatdidf.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/x86_64/floatdidf.c
+END
+floatundisf.S
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/209986/compiler-rt/trunk/lib/builtins/x86_64/floatundisf.S
+END
+floatundidf.S
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/209986/compiler-rt/trunk/lib/builtins/x86_64/floatundidf.S
+END
+floatdixf.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/x86_64/floatdixf.c
+END
+Makefile.mk
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/x86_64/Makefile.mk
+END
+floatundixf.S
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/209986/compiler-rt/trunk/lib/builtins/x86_64/floatundixf.S
+END
+floatdisf.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/201393/compiler-rt/trunk/lib/builtins/x86_64/floatdisf.c
+END

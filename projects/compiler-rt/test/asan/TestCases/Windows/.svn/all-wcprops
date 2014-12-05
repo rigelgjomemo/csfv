@@ -1,0 +1,377 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/210030/compiler-rt/trunk/test/asan/TestCases/Windows
+END
+realloc_left_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/realloc_left_oob.cc
+END
+stack_array_sanity.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/stack_array_sanity.cc
+END
+global_const_string_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/global_const_string_oob.cc
+END
+lit.local.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/208802/compiler-rt/trunk/test/asan/TestCases/Windows/lit.local.cfg
+END
+global_const_string.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/global_const_string.cc
+END
+dll_stack_use_after_return.cc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/dll_stack_use_after_return.cc
+END
+dll_malloc_uaf.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/dll_malloc_uaf.cc
+END
+operator_array_new_uaf.cc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/operator_array_new_uaf.cc
+END
+intercept_strdup.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/intercept_strdup.cc
+END
+thread_stack_reuse.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/thread_stack_reuse.cc
+END
+operator_new_uaf.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/operator_new_uaf.cc
+END
+stack_array_right_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/stack_array_right_oob.cc
+END
+stack_use_after_return.cc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/stack_use_after_return.cc
+END
+malloc_uaf.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/malloc_uaf.cc
+END
+dll_intercept_memcpy.cc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/llvm-project/!svn/ver/209887/compiler-rt/trunk/test/asan/TestCases/Windows/dll_intercept_memcpy.cc
+END
+thread_stack_array_left_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/thread_stack_array_left_oob.cc
+END
+intercept_memcpy.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/intercept_memcpy.cc
+END
+dll_aligned_mallocs.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/dll_aligned_mallocs.cc
+END
+beginthreadex.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/beginthreadex.cc
+END
+hello_world.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/hello_world.cc
+END
+double_free.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/double_free.cc
+END
+dll_malloc_left_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/dll_malloc_left_oob.cc
+END
+operator_array_new_left_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/operator_array_new_left_oob.cc
+END
+realloc_uaf.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/realloc_uaf.cc
+END
+stack_array_left_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/stack_array_left_oob.cc
+END
+bitfield_uaf.cc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/bitfield_uaf.cc
+END
+operator_new_left_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/operator_new_left_oob.cc
+END
+use_after_realloc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/use_after_realloc.cc
+END
+wrong_downcast_on_stack.cc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/wrong_downcast_on_stack.cc
+END
+thread_simple.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/thread_simple.cc
+END
+bitfield.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/bitfield.cc
+END
+dll_intercept_memchr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/llvm-project/!svn/ver/210027/compiler-rt/trunk/test/asan/TestCases/Windows/dll_intercept_memchr.cc
+END
+dll_intercept_memcpy_indirect.cc
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/llvm-project/!svn/ver/209887/compiler-rt/trunk/test/asan/TestCases/Windows/dll_intercept_memcpy_indirect.cc
+END
+dll_cerr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/210030/compiler-rt/trunk/test/asan/TestCases/Windows/dll_cerr.cc
+END
+thread_stack_array_right_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/thread_stack_array_right_oob.cc
+END
+calloc_right_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/calloc_right_oob.cc
+END
+allocators_sanity.cc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/allocators_sanity.cc
+END
+operator_delete_wrong_argument.cc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/operator_delete_wrong_argument.cc
+END
+dll_poison_unpoison.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/dll_poison_unpoison.cc
+END
+operator_array_new_right_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/operator_array_new_right_oob.cc
+END
+dll_thread_stack_array_left_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/dll_thread_stack_array_left_oob.cc
+END
+operator_array_new_with_dtor_left_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/operator_array_new_with_dtor_left_oob.cc
+END
+operator_new_right_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/operator_new_right_oob.cc
+END
+windows_h.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/windows_h.cc
+END
+dll_intercept_memset.cc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/llvm-project/!svn/ver/209887/compiler-rt/trunk/test/asan/TestCases/Windows/dll_intercept_memset.cc
+END
+malloc_right_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/malloc_right_oob.cc
+END
+dll_operator_array_new_left_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/dll_operator_array_new_left_oob.cc
+END
+calloc_left_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/calloc_left_oob.cc
+END
+dll_noreturn.cc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/dll_noreturn.cc
+END
+double_operator_delete.cc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/double_operator_delete.cc
+END
+dll_host.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/dll_host.cc
+END
+thread_stress.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/thread_stress.cc
+END
+aligned_mallocs.cc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/aligned_mallocs.cc
+END
+realloc_right_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/realloc_right_oob.cc
+END
+crt_initializers.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/crt_initializers.cc
+END
+dll_intercept_strlen.cc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/dll_intercept_strlen.cc
+END
+malloc_left_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/malloc_left_oob.cc
+END
+intercept_strlen.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/intercept_strlen.cc
+END
+dll_allocators_sanity.cc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/dll_allocators_sanity.cc
+END
+wrong_downcast_on_heap.cc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/wrong_downcast_on_heap.cc
+END
+calloc_uaf.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/calloc_uaf.cc
+END
+dll_operator_array_new_with_dtor_left_oob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/llvm-project/!svn/ver/209719/compiler-rt/trunk/test/asan/TestCases/Windows/dll_operator_array_new_with_dtor_left_oob.cc
+END

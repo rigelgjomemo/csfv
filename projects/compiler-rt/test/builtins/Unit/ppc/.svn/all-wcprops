@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ppc
+END
+qmul_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ppc/qmul_test.c
+END
+floatunditf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ppc/floatunditf_test.c
+END
+test
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ppc/test
+END
+floatditf_test.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ppc/floatditf_test.h
+END
+qdiv_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ppc/qdiv_test.c
+END
+floatunditf_test.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ppc/floatunditf_test.h
+END
+qadd_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ppc/qadd_test.c
+END
+qsub_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ppc/qsub_test.c
+END
+floatditf_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ppc/floatditf_test.c
+END
+DD.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ppc/DD.h
+END
+fixtfdi_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/201396/compiler-rt/trunk/test/builtins/Unit/ppc/fixtfdi_test.c
+END

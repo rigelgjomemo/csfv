@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/llvm-project/!svn/ver/210655/compiler-rt/trunk
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/210069/compiler-rt/trunk/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/llvm-project/!svn/ver/196492/compiler-rt/trunk/Makefile
+END
+LICENSE.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/204128/compiler-rt/trunk/LICENSE.TXT
+END
+CODE_OWNERS.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/202380/compiler-rt/trunk/CODE_OWNERS.TXT
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/llvm-project/!svn/ver/204387/compiler-rt/trunk/.gitignore
+END
+.arcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/llvm-project/!svn/ver/205702/compiler-rt/trunk/.arcconfig
+END
+CREDITS.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/204249/compiler-rt/trunk/CREDITS.TXT
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/llvm-project/!svn/ver/209778/compiler-rt/trunk/README.txt
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/207709/compiler-rt/trunk/test/msan/Linux
+END
+glob_nomatch.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/207709/compiler-rt/trunk/test/msan/Linux/glob_nomatch.cc
+END
+syscalls.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/207709/compiler-rt/trunk/test/msan/Linux/syscalls.cc
+END
+glob_altdirfunc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/207709/compiler-rt/trunk/test/msan/Linux/glob_altdirfunc.cc
+END
+sunrpc_bytes.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/207709/compiler-rt/trunk/test/msan/Linux/sunrpc_bytes.cc
+END
+sunrpc_string.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/207709/compiler-rt/trunk/test/msan/Linux/sunrpc_string.cc
+END
+tcgetattr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/207709/compiler-rt/trunk/test/msan/Linux/tcgetattr.cc
+END
+xattr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/207709/compiler-rt/trunk/test/msan/Linux/xattr.cc
+END
+glob.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/207709/compiler-rt/trunk/test/msan/Linux/glob.cc
+END
+getresid.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/207709/compiler-rt/trunk/test/msan/Linux/getresid.cc
+END
+sunrpc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/207709/compiler-rt/trunk/test/msan/Linux/sunrpc.cc
+END
+lit.local.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/201412/compiler-rt/trunk/test/msan/Linux/lit.local.cfg
+END

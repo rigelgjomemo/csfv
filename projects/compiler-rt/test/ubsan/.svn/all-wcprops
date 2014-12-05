@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/llvm-project/!svn/ver/209856/compiler-rt/trunk/test/ubsan
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/209856/compiler-rt/trunk/test/ubsan/CMakeLists.txt
+END
+lit.common.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/208746/compiler-rt/trunk/test/ubsan/lit.common.cfg
+END
+lit.site.cfg.in
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/208747/compiler-rt/trunk/test/ubsan/lit.site.cfg.in
+END

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/209517/compiler-rt/trunk/test/ubsan/TestCases/Float
+END
+cast-overflow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/llvm-project/!svn/ver/209517/compiler-rt/trunk/test/ubsan/TestCases/Float/cast-overflow.cpp
+END
