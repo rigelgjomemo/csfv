@@ -1,10 +1,10 @@
-# Makefile for RemoveIOC pass
+# Makefile for AnnotationMapping pass
 
 # Path to top level of LLVM hierarchy
 LEVEL = ../../..
 
 # Name of the library to build
-LIBRARYNAME = RemoveIOC
+LIBRARYNAME = AnnotationMapping
 
 # Make the shared library become a loadable module so the tools can
 # dlopen/dlsym on the resulting library.
