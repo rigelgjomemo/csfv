@@ -26,7 +26,7 @@
 #include "llvm/IR/Constant.h"
 #include "llvm/IR/CFG.h"
 //#include "safecode/ranges.h"
-#include "llvm/Transforms/Utils/PromoteMemToReg.h"
+//#include "llvm/Transforms/Utils/PromoteMemToReg.h"
 #include "llvm/IR/Module.h"
 #include "llvm/IR/IntrinsicInst.h"
 #include "llvm/Support/Debug.h"
@@ -77,8 +77,8 @@ namespace llvm
 						if (ACSLInteger * value = llvm::dyn_cast<ACSLInteger>(&(binexp->rhs))) {
 							//APInt(numBits, number, isSigned = false). 
 							//going with bit width of 64 for now and signed
-							APInt* lower = new APInt(64, value->value, true); 
-							APInt* upper = new APInt(64, value->value, true);
+							APInt* lower = new APInt(32, value->value, true); 
+							APInt* upper = new APInt(32, value->value+1, true);
 							DEBUG(errs()<< "lower.bitwidth: " << lower->getBitWidth()<< "\n";);
 							DEBUG(errs()<< "upper.bitwidth: " << upper->getBitWidth()<< "\n";);
 							ConstantRange* CR = new ConstantRange(*lower, *upper);
@@ -413,7 +413,9 @@ ConstantRangeUtils::Result ConstantRangeUtils::foldLHSC(unsigned Predicate, Cons
 		ConstantInt* CI_RHS = nullptr;
 		Instruction* I = nullptr;
 		
+		
 		if(I = dyn_cast<Instruction>(LHS)) {
+			//if there are range metadata attached to this instruction
 			if(I->getMetadata("acsl_range")) {
 				MDNode *md = dyn_cast<MDNode>(I->getMetadata("acsl_range"));
 				DEBUG(errs()<<*md<<"\n";);
@@ -422,7 +424,11 @@ ConstantRangeUtils::Result ConstantRangeUtils::foldLHSC(unsigned Predicate, Cons
 			}
 		}
 		else if(ConstantInt* CI = dyn_cast<ConstantInt>(LHS)) {
-			//CI_LHS=CI;
+			//if bitwidth is greater than 64, getSExtValue will complain.
+			//ignore these cases (note: these appear when files from compiler-rt are compiled)
+			unsigned bitwidth = CI->getBitWidth();
+			if(bitwidth > 64)
+				return ConstantRangeUtils::UNKNOWN;
 			int64_t val = CI->getSExtValue();
 			APInt* lower = new APInt(64, val, true);
 			APInt* upper = new APInt(64, val+1, true);
@@ -439,7 +445,12 @@ ConstantRangeUtils::Result ConstantRangeUtils::foldLHSC(unsigned Predicate, Cons
 			}
 		}
 		else if(ConstantInt* CI = dyn_cast<ConstantInt>(RHS)) {
-			//CI_RHS=CI;
+			
+			//if bitwidth is greater than 64, getSExtValue will complain.
+			//ignore these cases (note: these appear when files from compiler-rt are compiled)
+			unsigned bitwidth = CI->getBitWidth();
+			if(bitwidth > 64)
+				return ConstantRangeUtils::UNKNOWN;
 			int64_t val = CI->getSExtValue();
 			APInt* lower = new APInt(64, val, true);
 			APInt* upper = new APInt(64, val+1, true);

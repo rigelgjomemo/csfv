@@ -518,7 +518,10 @@ ReprocessLoop:
   SmallVector<BasicBlock*, 8> ExitingBlocks;
   L->getExitingBlocks(ExitingBlocks);
   for (SmallVectorImpl<BasicBlock *>::iterator I = ExitingBlocks.begin(),
-       E = ExitingBlocks.end(); I != E; ++I)
+       E = ExitingBlocks.end(); I != E; ++I) {
+		   //rigel
+		   DEBUG(errs() << "Rigel - ExitingBlock: "<<(*I)->getName()<<"\n");
+		   //end rigel
     if (BranchInst *BI = dyn_cast<BranchInst>((*I)->getTerminator()))
       if (BI->isConditional()) {
         if (UndefValue *Cond = dyn_cast<UndefValue>(BI->getCondition())) {
@@ -536,9 +539,12 @@ ReprocessLoop:
           Changed = true;
         }
       }
-
+	}
   // Does the loop already have a preheader?  If so, don't insert one.
   BasicBlock *Preheader = L->getLoopPreheader();
+  //rigel
+  DEBUG(dbgs() << "Rigel - Preheader: "<<Preheader->getName()<<"\n");
+  //end rigel
   if (!Preheader) {
     Preheader = InsertPreheaderForLoop(L, PP);
     if (Preheader) {

@@ -240,6 +240,10 @@ bool ConstantRange::contains(const ConstantRange &Other) const {
 /// subtract - Subtract the specified constant from the endpoints of this
 /// constant range.
 ConstantRange ConstantRange::subtract(const APInt &Val) const {
+	//rigel
+	/*unsigned vb = Val.getBitWidth();
+	unsigned thisbw = getBitWidth();
+	errs() << "vb: " <<vb << " | thisbw: "<< thisbw<<"\n";*/
   assert(Val.getBitWidth() == getBitWidth() && "Wrong bit width");
   // If the set is empty or full, don't modify the endpoints.
   if (Lower == Upper) 

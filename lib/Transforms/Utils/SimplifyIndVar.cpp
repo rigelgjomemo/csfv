@@ -21,6 +21,9 @@
 #include "llvm/Analysis/LoopInfo.h"
 #include "llvm/Analysis/LoopPass.h"
 #include "llvm/Analysis/ScalarEvolutionExpressions.h"
+//rigel
+#include "llvm/Analysis/ConstantRangeUtils.h"
+//end rigel
 #include "llvm/IR/DataLayout.h"
 #include "llvm/IR/Dominators.h"
 #include "llvm/IR/IRBuilder.h"
@@ -103,23 +106,77 @@ Value *SimplifyIndvar::foldIVUser(Instruction *UseInst, Instruction *IVOperand) 
     return nullptr;
   case Instruction::UDiv:
   case Instruction::LShr:
-    // We're only interested in the case where we know something about
+	// We're only interested in the case where we know something about
     // the numerator and have a constant denominator.
-    if (IVOperand != UseInst->getOperand(OperIdx) ||
+	//Rigel: original code is in the three lines below
+	/* if (IVOperand != UseInst->getOperand(OperIdx) || 
         !isa<ConstantInt>(UseInst->getOperand(1)))
-      return nullptr;
+			return nullptr;
+	*/
+	//rigel
+	MDNode *md;
+	ConstantRangeUtils CRU;
+	ConstantRange* CR;
+    if (IVOperand != UseInst->getOperand(OperIdx))
+		return nullptr;
+ 	if(!isa<ConstantInt>(UseInst->getOperand(1))) {
+		//rigel: now check if we have an assertion that tells us that the second operand is constant before returning nullptr.
+		Value* op1 = UseInst->getOperand(1);
+		if(Instruction* inst = dyn_cast<Instruction>(op1)) {
+			DEBUG(dbgs()<<"Rigel - foldIVUser. inst: " << *inst<<"\n");
+			if(inst->getMetadata("acsl_range")) {
+				  md = dyn_cast<MDNode>(inst->getMetadata("acsl_range"));
+				  DEBUG(errs()<<*md<<"\n";);
+				  CR = CRU.getConstantRange(md);
+				  DEBUG(errs()<<*CR << "\n";);
+				  if(CR->getLower()+1!=CR->getUpper()) {
+						return nullptr;
+				  }
+			}
+			else
+				return nullptr;
+		}
+		else 
+			return nullptr;
+	 }
+	 //end rigel
+  
 
     // Attempt to fold a binary operator with constant operand.
     // e.g. ((I + 1) >> 2) => I >> 2
-    if (!isa<BinaryOperator>(IVOperand)
+    //Rigel Original Code Commented below
+	/* 
+	 * if (!isa<BinaryOperator>(IVOperand)
         || !isa<ConstantInt>(IVOperand->getOperand(1)))
       return nullptr;
+	*/
 
-    IVSrc = IVOperand->getOperand(0);
+//rigel
+	if (!isa<BinaryOperator>(IVOperand)) {
+		DEBUG(dbgs() << "Rigel - foldIVUser. IVOperand: " << *IVOperand << "\n");
+		return nullptr;
+		
+	}
+	if(!isa<ConstantInt>(IVOperand->getOperand(1))) {
+	  DEBUG(dbgs() << "Rigel - foldIVUser. IVOperand->getOperand(1): " << *(IVOperand->getOperand(1)) << "\n");
+      return nullptr;
+	  
+	}
+//end rigel
+    
+	IVSrc = IVOperand->getOperand(0);
     // IVSrc must be the (SCEVable) IV, since the other operand is const.
     assert(SE->isSCEVable(IVSrc->getType()) && "Expect SCEVable IV operand");
-
-    ConstantInt *D = cast<ConstantInt>(UseInst->getOperand(1));
+	
+	//rigel original code is in the line below
+    /*
+	 * ConstantInt *D = cast<ConstantInt>(UseInst->getOperand(1));
+	 */
+	//rigel
+	APInt apint = CR->getLower();
+	ConstantInt *D = ConstantInt::get(UseInst->getContext(), apint);
+	DEBUG(dbgs() << "Rigel - in foldIVUser. D: "<<*D<<"\n");
+	//end rigel
     if (UseInst->getOpcode() == Instruction::LShr) {
       // Get a constant for the divisor. See createSCEV.
       uint32_t BitWidth = cast<IntegerType>(UseInst->getType())->getBitWidth();
@@ -130,12 +187,18 @@ Value *SimplifyIndvar::foldIVUser(Instruction *UseInst, Instruction *IVOperand) 
                            APInt::getOneBitSet(BitWidth, D->getZExtValue()));
     }
     FoldedExpr = SE->getUDivExpr(SE->getSCEV(IVSrc), SE->getSCEV(D));
+	//rigel
+	DEBUG(dbgs() << "Rigel - in foldIVUser. FoldedExpr: "<<*FoldedExpr<<"\n");
+	//end rigel
   }
   // We have something that might fold it's operand. Compare SCEVs.
   if (!SE->isSCEVable(UseInst->getType()))
     return nullptr;
 
   // Bypass the operand if SCEV can prove it has no effect.
+  //rigel
+	DEBUG(dbgs() << "Rigel - in foldIVUser. SE->getSCEV(UseInst): "<<*(SE->getSCEV(UseInst))<<"\n");
+	//end rigel
   if (SE->getSCEV(UseInst) != FoldedExpr)
     return nullptr;
 
@@ -155,6 +218,10 @@ Value *SimplifyIndvar::foldIVUser(Instruction *UseInst, Instruction *IVOperand) 
 /// eliminateIVComparison - SimplifyIVUsers helper for eliminating useless
 /// comparisons against an induction variable.
 void SimplifyIndvar::eliminateIVComparison(ICmpInst *ICmp, Value *IVOperand) {
+	//rigel
+  DEBUG(dbgs()<<"Rigel - eliminateIVComparison. ICmp: "<<*ICmp<<"\n");
+  DEBUG(dbgs()<<"Rigel - eliminateIVComparison. IVOperand: "<<*IVOperand<<"\n");
+  //end rigel
   unsigned IVOperIdx = 0;
   ICmpInst::Predicate Pred = ICmp->getPredicate();
   if (IVOperand != ICmp->getOperand(0)) {
@@ -167,12 +234,19 @@ void SimplifyIndvar::eliminateIVComparison(ICmpInst *ICmp, Value *IVOperand) {
   // Get the SCEVs for the ICmp operands.
   const SCEV *S = SE->getSCEV(ICmp->getOperand(IVOperIdx));
   const SCEV *X = SE->getSCEV(ICmp->getOperand(1 - IVOperIdx));
-
+	//rigel
+  DEBUG(dbgs() << "Rigel - Inside eliminateIVComparison. S: "<<*S<<"\n");
+  DEBUG(dbgs() << "Rigel - Inside eliminateIVComparison. X: "<<*X<<"\n");
+  //end rigel
   // Simplify unnecessary loops away.
   const Loop *ICmpLoop = LI->getLoopFor(ICmp->getParent());
   S = SE->getSCEVAtScope(S, ICmpLoop);
   X = SE->getSCEVAtScope(X, ICmpLoop);
 
+	//rigel
+  DEBUG(dbgs() << "Rigel - Inside eliminateIVComparison. S: "<<*S<<"\n");
+  DEBUG(dbgs() << "Rigel - Inside eliminateIVComparison. X: "<<*X<<"\n");
+  //end rigel
   // If the condition is always true or always false, replace it with
   // a constant value.
   if (SE->isKnownPredicate(Pred, S, X))
@@ -343,7 +417,10 @@ static void pushIVUsers(
 
   for (User *U : Def->users()) {
     Instruction *UI = cast<Instruction>(U);
-
+	//rigel
+	DEBUG(dbgs()<<"Rigel. For CurrIV: "<<*Def<<"\n");
+	DEBUG(dbgs()<<"       Pushing User: "<<*UI<<"\n");
+	//end rigel
     // Avoid infinite or exponential worklist processing.
     // Also ensure unique worklist users.
     // If Def is a LoopPhi, it may not be in the Simplified set, so check for
@@ -389,7 +466,9 @@ static bool isSimpleIVUser(Instruction *I, const Loop *L, ScalarEvolution *SE) {
 void SimplifyIndvar::simplifyUsers(PHINode *CurrIV, IVVisitor *V) {
   if (!SE->isSCEVable(CurrIV->getType()))
     return;
-
+   //rigel
+	DEBUG(dbgs()<<"Rigel - in SimplifyIndVar::simplifyUsers. CurrIV: "<< *CurrIV<<"\n");
+	//end rigel
   // Instructions processed by SimplifyIndvar for CurrIV.
   SmallPtrSet<Instruction*,16> Simplified;
 
@@ -404,8 +483,12 @@ void SimplifyIndvar::simplifyUsers(PHINode *CurrIV, IVVisitor *V) {
   while (!SimpleIVUsers.empty()) {
     std::pair<Instruction*, Instruction*> UseOper =
       SimpleIVUsers.pop_back_val();
-    Instruction *UseInst = UseOper.first;
-
+	  Instruction *UseInst = UseOper.first;
+	  //rigel
+	  Instruction *UseSecRigel = UseOper.second;
+	  DEBUG(dbgs()<<"Rigel - in SimplifyIndVar::simplifyUsers. UseInst: "<< *UseInst<<"\n");
+	  DEBUG(dbgs()<<"Rigel - in SimplifyIndVar::simplifyUsers. IVOperand: "<< *UseSecRigel<<"\n");
+	  //end rigel
     // Bypass back edges to avoid extra work.
     if (UseInst == CurrIV) continue;
 

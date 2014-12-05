@@ -388,7 +388,7 @@ typedef unsigned char YY_CHAR;
 
 #define yytext_ptr yytext
 
-#include "llvm/Analysis/FlexLexer.h"
+#include "FlexLexer.h"
 
 /* %if-c-only Standard (non-C++) definition */
 /* %endif */

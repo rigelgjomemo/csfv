@@ -18,11 +18,11 @@
 
 #ifndef __FLEX_LEXER_H
 #define yyFlexLexer ExampleFlexLexer
-#include "llvm/Analysis/FlexLexer.h"
+#include "FlexLexer.h"
 #undef yyFlexLexer
 #endif
 
-#include "llvm/Analysis/parser.hh"
+#include "parser.hh"
 
 namespace example {
 

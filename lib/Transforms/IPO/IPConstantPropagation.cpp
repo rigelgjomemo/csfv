@@ -24,6 +24,7 @@
 #include "llvm/IR/Instructions.h"
 #include "llvm/IR/Module.h"
 #include "llvm/Pass.h"
+#include "llvm/Support/Debug.h"
 using namespace llvm;
 
 #define DEBUG_TYPE "ipconstprop"
@@ -79,6 +80,9 @@ bool IPCP::runOnModule(Module &M) {
 /// constant in for an argument, propagate that constant in as the argument.
 ///
 bool IPCP::PropagateConstantsIntoArguments(Function &F) {
+	//rigel
+	DEBUG(errs()<< F.getName()<<"\n");
+	//end rigel
   if (F.arg_empty() || F.use_empty()) return false; // No arguments? Early exit.
 
   // For each argument, keep track of its constant value and whether it is a
@@ -158,6 +162,10 @@ bool IPCP::PropagateConstantsIntoArguments(Function &F) {
 // callers will be updated to use the value they pass in directly instead of
 // using the return value.
 bool IPCP::PropagateConstantReturn(Function &F) {
+	//rigel
+	DEBUG(errs()<< F.getName()<<"\n");
+	//end rigel
+	
   if (F.getReturnType()->isVoidTy())
     return false; // No return value.
 

@@ -175,6 +175,11 @@ bool BranchProbabilityInfo::calcUnreachableHeuristics(BasicBlock *BB) {
 // 'expect' intrinsic processing.
 bool BranchProbabilityInfo::calcMetadataWeights(BasicBlock *BB) {
   TerminatorInst *TI = BB->getTerminator();
+  //rigel
+	DEBUG(dbgs() << "Rigel - inside BranchProbabilityInfo::calcMetadataWeights. BB: "<<BB->getName()<<"\n");
+	DEBUG(dbgs() << "Rigel - inside BranchProbabilityInfo::calcMetadataWeights. TI: "<<*TI<<"\n");
+	DEBUG(dbgs() << "Rigel - inside BranchProbabilityInfo::calcMetadataWeights. TI->getNumSuccessors(): "<<TI->getNumSuccessors()<<"\n");
+	//end rigel
   if (TI->getNumSuccessors() == 1)
     return false;
   if (!isa<BranchInst>(TI) && !isa<SwitchInst>(TI))

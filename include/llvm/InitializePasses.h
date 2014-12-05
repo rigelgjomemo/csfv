@@ -43,6 +43,10 @@ void initializeVectorization(PassRegistry&);
 /// ScalarOpts library.
 void initializeInstCombine(PassRegistry&);
 
+//rigel
+//void initializeRemoveIOC(PassRegistry&);
+//end rigel
+
 /// initializeIPO - Initialize all passes linked into the IPO library.
 void initializeIPO(PassRegistry&);
 
@@ -142,6 +146,10 @@ void initializeIfConverterPass(PassRegistry&);
 void initializeIndVarSimplifyPass(PassRegistry&);
 void initializeInlineCostAnalysisPass(PassRegistry&);
 void initializeInstCombinerPass(PassRegistry&);
+//rigel
+void initializeRemoveIOCPass(PassRegistry&);
+//end rigel
+
 void initializeInstCountPass(PassRegistry&);
 void initializeInstNamerPass(PassRegistry&);
 void initializeInternalizePassPass(PassRegistry&);

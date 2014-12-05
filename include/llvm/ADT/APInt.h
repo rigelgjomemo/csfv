@@ -1315,7 +1315,9 @@ public:
     if (isSingleWord())
       return int64_t(VAL << (APINT_BITS_PER_WORD - BitWidth)) >>
              (APINT_BITS_PER_WORD - BitWidth);
-    assert(getMinSignedBits() <= 64 && "Too many bits for int64_t");
+	//unsigned mins = getMinSignedBits();
+    //std::cout<<"Rigel: getMinSignedBits returned: " <<mins <<"\n";
+	assert(getMinSignedBits() <= 64 && "Too many bits for int64_t");
     return int64_t(pVal[0]);
   }
 

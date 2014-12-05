@@ -38,7 +38,7 @@
 #ifndef YY_EXAMPLE_LOCATION_HH_INCLUDED
 # define YY_EXAMPLE_LOCATION_HH_INCLUDED
 
-# include "llvm/Analysis/position.hh"
+# include "position.hh"
 
 
 namespace example {

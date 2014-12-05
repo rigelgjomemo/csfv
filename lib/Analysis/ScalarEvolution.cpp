@@ -67,6 +67,10 @@
 #include "llvm/Analysis/LoopInfo.h"
 #include "llvm/Analysis/ScalarEvolutionExpressions.h"
 #include "llvm/Analysis/ValueTracking.h"
+//rigel
+#include "llvm/Analysis/ConstantRangeUtils.h"
+//end rigel
+
 #include "llvm/IR/ConstantRange.h"
 #include "llvm/IR/Constants.h"
 #include "llvm/IR/DataLayout.h"
@@ -2841,6 +2845,7 @@ bool ScalarEvolution::checkValidity(const SCEV *S) const {
 /// getSCEV - Return an existing SCEV if it exists, otherwise analyze the
 /// expression and create a new one.
 const SCEV *ScalarEvolution::getSCEV(Value *V) {
+  DEBUG(dbgs() <<"Rigel - getSCEV (Value), Value: "<<*V<<"\n");
   assert(isSCEVable(V->getType()) && "Value is not SCEVable!");
 
   ValueExprMapType::iterator I = ValueExprMap.find_as(V);
@@ -3714,7 +3719,8 @@ const SCEV *ScalarEvolution::createSCEV(Value *V) {
     // analysis depends on.
     if (!DT->isReachableFromEntry(I->getParent()))
       return getUnknown(V);
-  } else if (ConstantExpr *CE = dyn_cast<ConstantExpr>(V))
+  } 
+  else if (ConstantExpr *CE = dyn_cast<ConstantExpr>(V))
     Opcode = CE->getOpcode();
   else if (ConstantInt *CI = dyn_cast<ConstantInt>(V))
     return getConstant(CI);
@@ -3722,9 +3728,25 @@ const SCEV *ScalarEvolution::createSCEV(Value *V) {
     return getConstant(V->getType(), 0);
   else if (GlobalAlias *GA = dyn_cast<GlobalAlias>(V))
     return GA->mayBeOverridden() ? getUnknown(V) : getSCEV(GA->getAliasee());
-  else
+  else	  
     return getUnknown(V);
-
+  //rigel
+  if (LoadInst *load = dyn_cast<LoadInst>(V)) {
+	  if(load->getMetadata("acsl_range")) {
+			ConstantRangeUtils CRU;
+			MDNode *md = dyn_cast<MDNode>(load->getMetadata("acsl_range"));
+			DEBUG(errs()<<*md<<"\n";);
+			ConstantRange* CR = CRU.getConstantRange(md);
+			DEBUG(errs()<<*CR << "\n";);
+			if(CR->getLower()+1==CR->getUpper()) {
+				APInt apint = CR->getLower();
+				ConstantInt *CI = ConstantInt::get(load->getContext(), apint);
+				return getConstant(CI);
+			}
+	  }	  
+  }
+  //end rigel
+  
   Operator *U = cast<Operator>(V);
   switch (Opcode) {
   case Instruction::Add: {
@@ -3759,6 +3781,12 @@ const SCEV *ScalarEvolution::createSCEV(Value *V) {
   case Instruction::Mul: {
     // Don't transfer NSW/NUW for the same reason as AddExpr.
     SmallVector<const SCEV *, 4> MulOps;
+	//rigel
+	DEBUG(dbgs() <<"Rigel - Operand 1: " << U->getOperand(1)<<"\n");
+	DEBUG(dbgs() <<"Rigel - Operand 0: " << U->getOperand(1)<<"\n");
+	//DEBUG(dbgs() <<"Rigel - SCEV(Operand 1): " << *(getSCEV(U->getOperand(1))<<"\n"));
+	//DEBUG(dbgs() <<"Rigel - SCEV(Operand 0): " << *(getSCEV(U->getOperand(0))<<"\n"));
+	//end rigel
     MulOps.push_back(getSCEV(U->getOperand(1)));
     for (Value *Op = U->getOperand(0);
          Op->getValueID() == Instruction::Mul + Value::InstructionVal;
@@ -4167,6 +4195,7 @@ const SCEV *ScalarEvolution::getExitCount(Loop *L, BasicBlock *ExitingBlock) {
 /// hasLoopInvariantBackedgeTakenCount).
 ///
 const SCEV *ScalarEvolution::getBackedgeTakenCount(const Loop *L) {
+  DEBUG(dbgs() << L->getHeader()->getName());
   return getBackedgeTakenInfo(L).getExact(this);
 }
 
@@ -4445,6 +4474,9 @@ ScalarEvolution::ComputeBackedgeTakenCount(const Loop *L) {
   SmallVector<std::pair<BasicBlock *, const SCEV *>, 4> ExitCounts;
   bool CouldComputeBECount = true;
   BasicBlock *Latch = L->getLoopLatch(); // may be NULL.
+  //rigel
+  DEBUG(dbgs() << "Rigel - Latch: "<<Latch->getName()<<"\n");
+  //end rigel
   const SCEV *MustExitMaxBECount = nullptr;
   const SCEV *MayExitMaxBECount = nullptr;
 
@@ -4452,8 +4484,15 @@ ScalarEvolution::ComputeBackedgeTakenCount(const Loop *L) {
   // and compute maxBECount.
   for (unsigned i = 0, e = ExitingBlocks.size(); i != e; ++i) {
     BasicBlock *ExitBB = ExitingBlocks[i];
+	//rigel
+	DEBUG(dbgs() << "Rigel - ExitBB: "<<ExitBB->getName()<<"\n");
+	//end rigel
     ExitLimit EL = ComputeExitLimit(L, ExitBB);
-
+	//rigel
+	//DEBUG(dbgs() << "Rigel - ExitLimit: "<<EL<<"\n");
+	DEBUG(dbgs() << "Rigel - ExitLimit.Exact: "<<*(EL.Exact)<<"\n");
+	DEBUG(dbgs() << "Rigel - ExitLimit.Max: "<<*(EL.Max)<<"\n");
+	//end rigel
     // 1. For each exit that can be computed, add an entry to ExitCounts.
     // CouldComputeBECount is true only if all exits can be computed.
     if (EL.Exact == getCouldNotCompute())
@@ -4482,8 +4521,10 @@ ScalarEvolution::ComputeBackedgeTakenCount(const Loop *L) {
     // greater than any computable EL.Max.
     if (EL.MustExit && EL.Max != getCouldNotCompute() && Latch &&
         DT->dominates(ExitBB, Latch)) {
-      if (!MustExitMaxBECount)
+      if (!MustExitMaxBECount) {
         MustExitMaxBECount = EL.Max;
+		DEBUG(dbgs() << "Rigel - In ComputeBackedgeTakenCount, MustExitMaxBECount: "<<*MustExitMaxBECount<<"\n");
+	  }
       else {
         MustExitMaxBECount =
           getUMinFromMismatchedTypes(MustExitMaxBECount, EL.Max);
@@ -4597,6 +4638,9 @@ ScalarEvolution::ComputeExitLimitFromCond(const Loop *L,
                                           BasicBlock *TBB,
                                           BasicBlock *FBB,
                                           bool IsSubExpr) {
+	//rigel
+	DEBUG(dbgs() << "Rigel - ComputeExitLimitFromCond where Cond: " << *ExitCond<<"\n");
+	//end rigel
   // Check if the controlling expression for this loop is an And or Or.
   if (BinaryOperator *BO = dyn_cast<BinaryOperator>(ExitCond)) {
     if (BO->getOpcode() == Instruction::And) {
@@ -4727,10 +4771,16 @@ ScalarEvolution::ComputeExitLimitFromICmp(const Loop *L,
 
   const SCEV *LHS = getSCEV(ExitCond->getOperand(0));
   const SCEV *RHS = getSCEV(ExitCond->getOperand(1));
+  
+  DEBUG(dbgs()<<"Rigel - ComputeExitLimitFromICmp, LHS SCEV: "<<*LHS<<"\n");
+  DEBUG(dbgs()<<"Rigel - ComputeExitLimitFromICmp, RHS SCEV: "<<*RHS<<"\n");
 
   // Try to evaluate any dependencies out of the loop.
   LHS = getSCEVAtScope(LHS, L);
   RHS = getSCEVAtScope(RHS, L);
+
+  DEBUG(dbgs()<<"Rigel - ComputeExitLimitFromICmp, after getSCEVAtScope, LHS SCEV: "<<*LHS<<"\n");
+  DEBUG(dbgs()<<"Rigel - ComputeExitLimitFromICmp, after getSCEVAtScope, RHS SCEV: "<<*RHS<<"\n");
 
   // At this point, we would like to compute how many iterations of the
   // loop the predicate will return true for these inputs.
@@ -4745,16 +4795,57 @@ ScalarEvolution::ComputeExitLimitFromICmp(const Loop *L,
 
   // If we have a comparison of a chrec against a constant, try to use value
   // ranges to answer this query.
-  if (const SCEVConstant *RHSC = dyn_cast<SCEVConstant>(RHS))
-    if (const SCEVAddRecExpr *AddRec = dyn_cast<SCEVAddRecExpr>(LHS))
+  if (const SCEVConstant *RHSC = dyn_cast<SCEVConstant>(RHS)) {
+    if (const SCEVAddRecExpr *AddRec = dyn_cast<SCEVAddRecExpr>(LHS)) {
       if (AddRec->getLoop() == L) {
         // Form the constant range.
         ConstantRange CompRange(
             ICmpInst::makeConstantRange(Cond, RHSC->getValue()->getValue()));
 
         const SCEV *Ret = AddRec->getNumIterationsInRange(CompRange, *this);
+		//rigel
+		DEBUG(dbgs() << "Rigel - Computing number of iterations from ICMP slt \n");
+		DEBUG(dbgs() << "        Given a LHS as an AddRec: "<<*AddRec<<"\n");
+		DEBUG(dbgs() << "        and a RHS as a ConstantRange: "<<CompRange<<"\n");
+		DEBUG(dbgs() << "        Result = "<<*Ret<<"\n");
+		//enf rigel
         if (!isa<SCEVCouldNotCompute>(Ret)) return Ret;
       }
+	}
+  }
+  //rigel
+  else {
+	  //check if the rhs of the condition has an acsl range
+	  Value* ValueRHS = ExitCond->getOperand(1);
+	  DEBUG(dbgs() << "Rigel - ValueRHS: "<<*ValueRHS<<"\n");
+	  ConstantRangeUtils CRU;
+	  if(Instruction* IRHS = dyn_cast<Instruction>(ValueRHS)) {
+	      if(IRHS->getMetadata("acsl_range")) {
+		      MDNode *md = dyn_cast<MDNode>(IRHS->getMetadata("acsl_range"));
+			  DEBUG(errs()<<*md<<"\n";);
+			  ConstantRange* CR = CRU.getConstantRange(md);
+			  DEBUG(errs()<<*CR << "\n";);
+			  if(CR->getLower()+1==CR->getUpper()) {
+				  if (const SCEVAddRecExpr *AddRec = dyn_cast<SCEVAddRecExpr>(LHS)) {
+					if (AddRec->getLoop() == L) {
+						// Form the constant range.
+						ConstantRange CompRange(ICmpInst::makeConstantRange(Cond, CR->getLower()));
+						const SCEV *Ret = AddRec->getNumIterationsInRange(CompRange, *this);
+						//rigel
+						DEBUG(dbgs() << "Rigel - Computing number of iterations from ICMP slt \n");
+						DEBUG(dbgs() << "        Given a LHS as an AddRec: "<<*AddRec<<"\n");
+						DEBUG(dbgs() << "        and a RHS as a ConstantRange: "<<CompRange<<"\n");
+						DEBUG(dbgs() << "        Result = "<<*Ret<<"\n");
+						//enf rigel
+						if (!isa<SCEVCouldNotCompute>(Ret)) return Ret;
+					}
+				}
+			}
+				 
+		  }
+	  }
+  }
+  //end rigel
 
   switch (Cond) {
   case ICmpInst::ICMP_NE: {                     // while (X != Y)
@@ -5043,6 +5134,10 @@ static Constant *EvaluateExpression(Value *V, const Loop *L,
     }
     Constant *C = EvaluateExpression(Operand, L, Vals, DL, TLI);
     Vals[Operand] = C;
+	//rigel
+	if(C)
+		DEBUG(dbgs() << "Rigel - EvaluateExpression returned C: "<<*C<<"\n");
+	//end rigel
     if (!C) return nullptr;
     Operands[i] = C;
   }
@@ -6199,6 +6294,12 @@ bool ScalarEvolution::isKnownPredicate(ICmpInst::Predicate Pred,
   // every iteration of the loop.
   const SCEVAddRecExpr *LAR = dyn_cast<SCEVAddRecExpr>(LHS);
   const SCEVAddRecExpr *RAR = dyn_cast<SCEVAddRecExpr>(RHS);
+  //rigel
+  if(LAR)
+	DEBUG(dbgs() << "Rigel - Inside isKnownPredicate. LAR: "<<*LAR<<"\n");
+  if(RAR)
+	DEBUG(dbgs() << "Rigel - Inside isKnownPredicate. RAR: "<<*RAR<<"\n");
+  //end rigel
   bool LeftGuarded = false;
   bool RightGuarded = false;
   if (LAR) {
@@ -6251,6 +6352,10 @@ ScalarEvolution::isKnownPredicateWithRanges(ICmpInst::Predicate Pred,
   case ICmpInst::ICMP_SLE: {
     ConstantRange LHSRange = getSignedRange(LHS);
     ConstantRange RHSRange = getSignedRange(RHS);
+	//rigel
+  	DEBUG(dbgs() << "Rigel - Inside isKnownPredicateWithRanges. LHSRange: "<<LHSRange<<"\n");
+  	DEBUG(dbgs() << "Rigel - Inside isKnownPredicateWithRanges. RHSRange: "<<RHSRange<<"\n");
+    //end rigel
     if (LHSRange.getSignedMax().sle(RHSRange.getSignedMin()))
       return true;
     if (LHSRange.getSignedMin().sgt(RHSRange.getSignedMax()))
@@ -6262,6 +6367,10 @@ ScalarEvolution::isKnownPredicateWithRanges(ICmpInst::Predicate Pred,
   case ICmpInst::ICMP_ULT: {
     ConstantRange LHSRange = getUnsignedRange(LHS);
     ConstantRange RHSRange = getUnsignedRange(RHS);
+	//rigel
+  	DEBUG(dbgs() << "Rigel - Inside isKnownPredicateWithRanges. LHSRange: "<<LHSRange<<"\n");
+  	DEBUG(dbgs() << "Rigel - Inside isKnownPredicateWithRanges. RHSRange: "<<RHSRange<<"\n");
+    //end rigel
     if (LHSRange.getUnsignedMax().ult(RHSRange.getUnsignedMin()))
       return true;
     if (LHSRange.getUnsignedMin().uge(RHSRange.getUnsignedMax()))
@@ -6273,6 +6382,10 @@ ScalarEvolution::isKnownPredicateWithRanges(ICmpInst::Predicate Pred,
   case ICmpInst::ICMP_ULE: {
     ConstantRange LHSRange = getUnsignedRange(LHS);
     ConstantRange RHSRange = getUnsignedRange(RHS);
+	//rigel
+  	DEBUG(dbgs() << "Rigel - Inside isKnownPredicateWithRanges. LHSRange: "<<LHSRange<<"\n");
+  	DEBUG(dbgs() << "Rigel - Inside isKnownPredicateWithRanges. RHSRange: "<<RHSRange<<"\n");
+    //end rigel
     if (LHSRange.getUnsignedMax().ule(RHSRange.getUnsignedMin()))
       return true;
     if (LHSRange.getUnsignedMin().ugt(RHSRange.getUnsignedMax()))
@@ -6777,9 +6890,11 @@ const SCEV *SCEVAddRecExpr::getNumIterationsInRange(ConstantRange Range,
       const SCEV *Shifted = SE.getAddRecExpr(Operands, getLoop(),
                                              getNoWrapFlags(FlagNW));
       if (const SCEVAddRecExpr *ShiftedAddRec =
-            dyn_cast<SCEVAddRecExpr>(Shifted))
+            dyn_cast<SCEVAddRecExpr>(Shifted)) {
         return ShiftedAddRec->getNumIterationsInRange(
                            Range.subtract(SC->getValue()->getValue()), SE);
+						   
+			}
       // This is strange and shouldn't happen.
       return SE.getCouldNotCompute();
     }

@@ -1583,6 +1583,9 @@ Value *SCEVExpander::expandCodeFor(const SCEV *SH, Type *Ty,
 Value *SCEVExpander::expandCodeFor(const SCEV *SH, Type *Ty) {
   // Expand the code for this SCEV.
   Value *V = expand(SH);
+  //rigel
+ dbgs()<<"Rigel - inside ScalarEvolutionExpander.expandCodeFor(). V: "<<*V<<"\n";
+  //end rigel
   if (Ty) {
     assert(SE.getTypeSizeInBits(Ty) == SE.getTypeSizeInBits(SH->getType()) &&
            "non-trivial casts should be done with the SCEVs directly!");

@@ -113,6 +113,9 @@ static bool isSimplifiedLoopNest(BasicBlock *BB, const DominatorTree *DT,
 /// return true.  Otherwise, return false.
 bool IVUsers::AddUsersImpl(Instruction *I,
                            SmallPtrSet<Loop*,16> &SimpleLoopNests) {
+  //rigel
+  DEBUG(dbgs() << "Rigel (inside IVUsers::AddUsersImpl - I: " << *I<<"\n");
+	  //end rigel
   // Add this IV user to the Processed set before returning false to ensure that
   // all IV users are members of the set. See IVUsers::isIVUserOrOperand.
   if (!Processed.insert(I))
@@ -145,6 +148,9 @@ bool IVUsers::AddUsersImpl(Instruction *I,
   SmallPtrSet<Instruction *, 4> UniqueUsers;
   for (Use &U : I->uses()) {
     Instruction *User = cast<Instruction>(U.getUser());
+	//rigel
+	DEBUG(dbgs() << "Rigel (inside IVUsers::AddUsersImpl - User: " << *User<<"\n");
+	  //end rigel
     if (!UniqueUsers.insert(User))
       continue;
 

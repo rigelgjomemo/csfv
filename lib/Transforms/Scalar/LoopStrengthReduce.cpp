@@ -2386,7 +2386,10 @@ void LSRInstance::CollectInterestingTypesAndFactors() {
   SmallVector<const SCEV *, 4> Worklist;
   for (IVUsers::const_iterator UI = IU.begin(), E = IU.end(); UI != E; ++UI) {
     const SCEV *Expr = IU.getExpr(*UI);
-
+	 //rigel
+	  DEBUG(dbgs() << "Rigel (inside CollectInterestingTypesAndFactors) - UI: " << UI<<"\n");
+	  DEBUG(dbgs() << "Rigel (inside CollectInterestingTypesAndFactors) - Expr: " << *Expr<<"\n");
+	  //end rigel
     // Collect interesting types.
     Types.insert(SE.getEffectiveSCEVType(Expr->getType()));
 
@@ -2394,10 +2397,20 @@ void LSRInstance::CollectInterestingTypesAndFactors() {
     Worklist.push_back(Expr);
     do {
       const SCEV *S = Worklist.pop_back_val();
+	   //rigel
+	  DEBUG(dbgs() << "Rigel (inside CollectInterestingTypesAndFactors) - S: " << *S<<"\n");
+	  //end rigel
       if (const SCEVAddRecExpr *AR = dyn_cast<SCEVAddRecExpr>(S)) {
-        if (AR->getLoop() == L)
+        if (AR->getLoop() == L) {
           Strides.insert(AR->getStepRecurrence(SE));
+		   //rigel
+			DEBUG(dbgs() << "Rigel (inside CollectInterestingTypesAndFactors) - AR->getStepRecurrence(SE): " << *(AR->getStepRecurrence(SE))<<"\n");
+			//end rigel
+		}
         Worklist.push_back(AR->getStart());
+		//rigel
+		DEBUG(dbgs() << "Rigel (inside CollectInterestingTypesAndFactors) - AR->getStart(): " << *(AR->getStart())<<"\n");
+		//end rigel
       } else if (const SCEVAddExpr *Add = dyn_cast<SCEVAddExpr>(S)) {
         Worklist.append(Add->op_begin(), Add->op_end());
       }
@@ -2410,8 +2423,11 @@ void LSRInstance::CollectInterestingTypesAndFactors() {
     for (SmallSetVector<const SCEV *, 4>::const_iterator NewStrideIter =
          std::next(I); NewStrideIter != E; ++NewStrideIter) {
       const SCEV *OldStride = *I;
-      const SCEV *NewStride = *NewStrideIter;
-
+	  const SCEV *NewStride = *NewStrideIter;
+	  //rigel
+	  DEBUG(dbgs() << "Rigel (inside CollectInterestingTypesAndFactors) - OldStride (SCEV): " << *OldStride<<"\n");
+	  DEBUG(dbgs() << "Rigel (inside CollectInterestingTypesAndFactors) - NewStride (SCEV): " << *NewStride<<"\n");
+	  //end rigel
       if (SE.getTypeSizeInBits(OldStride->getType()) !=
           SE.getTypeSizeInBits(NewStride->getType())) {
         if (SE.getTypeSizeInBits(OldStride->getType()) >
@@ -2423,6 +2439,9 @@ void LSRInstance::CollectInterestingTypesAndFactors() {
       if (const SCEVConstant *Factor =
             dyn_cast_or_null<SCEVConstant>(getExactSDiv(NewStride, OldStride,
                                                         SE, true))) {
+			//rigel
+			DEBUG(dbgs() << "Rigel (inside CollectInterestingTypesAndFactors) - Factor: " << *Factor<<"\n");
+			//end rigel
         if (Factor->getValue()->getValue().getMinSignedBits() <= 64)
           Factors.insert(Factor->getValue()->getValue().getSExtValue());
       } else if (const SCEVConstant *Factor =
@@ -3123,7 +3142,7 @@ LSRInstance::CollectLoopInvariantFixupsAndFormulae() {
 
   while (!Worklist.empty()) {
     const SCEV *S = Worklist.pop_back_val();
-
+	DEBUG(dbgs() << "Rigel - LoopStrngthReduce.collectLoopInvariantFixupsAndFormulae(). S: "<<*S<<"\n");
     if (const SCEVNAryExpr *N = dyn_cast<SCEVNAryExpr>(S))
       Worklist.append(N->op_begin(), N->op_end());
     else if (const SCEVCastExpr *C = dyn_cast<SCEVCastExpr>(S))
@@ -4897,6 +4916,12 @@ LSRInstance::LSRInstance(Loop *L, Pass *P)
        Rung; Rung = Rung->getIDom()) {
     BasicBlock *BB = Rung->getBlock();
     const Loop *DomLoop = LI.getLoopFor(BB);
+	//rigel
+	DEBUG(dbgs() << "Rigel - BB: " << BB->getName()<< "\n");
+	//DEBUG(dbgs() << "Rigel - DomLoop: " << *DomLoop<< "\n");
+	
+	
+	//end rigel
     if (DomLoop && DomLoop->getHeader() == BB) {
       assert(DomLoop->getLoopPreheader() && "LSR needs a simplified loop nest");
     }

@@ -1826,7 +1826,10 @@ bool IndVarSimplify::runOnLoop(Loop *L, LPPassManager &LPM) {
   RewriteNonIntegerIVs(L);
 
   const SCEV *BackedgeTakenCount = SE->getBackedgeTakenCount(L);
-
+	
+	//rigel
+	DEBUG(errs()<<"SCEV: "<<*BackedgeTakenCount<<"\n");
+	//end rigel
   // Create a rewriter object which we'll use to transform the code with.
   SCEVExpander Rewriter(*SE, "indvars");
 #ifndef NDEBUG

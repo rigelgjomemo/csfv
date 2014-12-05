@@ -21,9 +21,10 @@
 #include "llvm/Analysis/LoopPass.h"
 #include "llvm/Analysis/RegionPass.h"
 //rigel
-#include "llvm/Analysis/SafecodeVarMap.h"
-#include "llvm/Analysis/AnnotationPropagation.h"
-#include "llvm/Analysis/RemoveIOC.h"
+//#include "llvm/Transforms/AnnotationMapping.h"
+//#include "llvm/Analysis/AnnotationPropagation.h"
+//#include "llvm/Analysis/RemoveIOC.h"
+//#include "llvm/Transforms/RemoveIOC.h"
 //end rigel
 #include "llvm/Bitcode/BitcodeWriterPass.h"
 #include "llvm/CodeGen/CommandFlags.h"
@@ -226,10 +227,10 @@ static void AddOptimizationPasses(PassManagerBase &MPM,FunctionPassManager &FPM,
     Builder.Inliner = createAlwaysInlinerPass();
   }
   Builder.DisableUnitAtATime = !UnitAtATime;
-  //rigel: commented out the rest
-  Builder.DisableUnrollLoops = true; //(DisableLoopUnrolling.getNumOccurrences() > 0) ?
-                               // DisableLoopUnrolling : OptLevel == 0;
-	//end rigel
+  
+  Builder.DisableUnrollLoops = (DisableLoopUnrolling.getNumOccurrences() > 0) ?
+                                DisableLoopUnrolling : OptLevel == 0;
+	
   // This is final, unless there is a #pragma vectorize enable
   if (DisableLoopVectorization)
     Builder.LoopVectorize = false;
@@ -332,7 +333,7 @@ void initializePollyPasses(llvm::PassRegistry &Registry);
 // main for opt
 //
 int main(int argc, char **argv) {
-  sys::PrintStackTraceOnErrorSignal();
+ sys::PrintStackTraceOnErrorSignal();
   llvm::PrettyStackTraceProgram X(argc, argv);
 
   // Enable debug stream buffering.
@@ -356,13 +357,17 @@ int main(int argc, char **argv) {
   initializeIPA(Registry);
   initializeTransformUtils(Registry);
   initializeInstCombine(Registry);
+ 
   initializeInstrumentation(Registry);
   initializeTarget(Registry);
   // For codegen passes, only passes that do IR to IR transformation are
   // supported.
   initializeCodeGenPreparePass(Registry);
   initializeAtomicExpandLoadLinkedPass(Registry);
-
+  //rigel
+  //initializeRemoveIOC(Registry);
+  //end rigel 
+  
 #ifdef LINK_POLLY_INTO_TOOLS
   polly::initializePollyPasses(Registry);
 #endif
@@ -448,7 +453,7 @@ int main(int argc, char **argv) {
   // The -disable-simplify-libcalls flag actually disables all builtin optzns.
   if (DisableSimplifyLibCalls)
     TLI->disableAllFunctions();
-  Passes.add(TLI);
+  Passes.add(TLI); 
 
   // Add an appropriate DataLayout instance for this module.
   const DataLayout *DL = M.get()->getDataLayout();
@@ -497,12 +502,12 @@ int main(int argc, char **argv) {
     Passes.add(createBreakpointPrinter(Out->os()));
     NoOutput = true;
   }
-
+ 
 
 	//rigel
 	//Passes.add(createPromoteMemoryToRegisterPass());
-	Passes.add(new SafecodeVarMap());
-	Passes.add(new AnnotationPropagationPass());
+	//Passes.add(new AnnotationMapping());
+	//Passes.add(new AnnotationPropagationPass());
 	//Passes.add(new RemoveIOCPass());
 	//end rigel
 

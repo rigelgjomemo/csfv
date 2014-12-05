@@ -44,9 +44,9 @@
 
 #include <string>
 #include <iostream>
-#include "llvm/Analysis/stack.hh"
-#include "llvm/Analysis/location.hh"
-#include "llvm/Analysis/node.h"
+#include "stack.hh"
+#include "location.hh"
+#include "node.h"
 
 /* Enabling traces.  */
 #ifndef YYDEBUG

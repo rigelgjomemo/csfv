@@ -20,6 +20,13 @@
 #include "llvm/ADT/STLExtras.h"
 #include "llvm/Analysis/LoopInfo.h"
 #include "llvm/IR/Dominators.h"
+//rigel
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/raw_ostream.h"
+#define DEBUG_TYPE "rigel"
+//end rigel
+
+
 
 namespace llvm {
 
@@ -41,6 +48,11 @@ getExitingBlocks(SmallVectorImpl<BlockT *> &ExitingBlocks) const {
       if (!contains(*I)) {
         // Not in current loop? It must be an exit block.
         ExitingBlocks.push_back(*BI);
+		//rigel
+		//BasicBlock bb = *BI;
+
+		//	DEBUG(errs()<<"Rigel: ExitingBlock: " << BI <<"\n");
+		//end rigel
         break;
       }
 }
