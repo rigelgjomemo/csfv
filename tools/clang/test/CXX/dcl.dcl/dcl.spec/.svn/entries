@@ -1,0 +1,46 @@
+10
+
+dir
+210885
+http://llvm.org/svn/llvm-project/cfe/trunk/test/CXX/dcl.dcl/dcl.spec
+http://llvm.org/svn/llvm-project
+
+
+
+2014-06-11T19:53:12.303979Z
+210696
+rsmith
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91177308-0d34-0410-b5e6-96231b3b80d8
+
+dcl.constexpr
+dir
+
+dcl.fct.spec
+dir
+
+dcl.friend
+dir
+
+dcl.stc
+dir
+
+dcl.typedef
+dir
+
+dcl.type
+dir
+

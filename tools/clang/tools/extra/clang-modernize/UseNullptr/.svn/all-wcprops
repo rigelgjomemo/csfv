@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/210447/clang-tools-extra/trunk/clang-modernize/UseNullptr
+END
+NullptrMatchers.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/llvm-project/!svn/ver/189973/clang-tools-extra/trunk/clang-modernize/UseNullptr/NullptrMatchers.h
+END
+UseNullptr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/202632/clang-tools-extra/trunk/clang-modernize/UseNullptr/UseNullptr.cpp
+END
+NullptrActions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/llvm-project/!svn/ver/210447/clang-tools-extra/trunk/clang-modernize/UseNullptr/NullptrActions.cpp
+END
+UseNullptr.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/llvm-project/!svn/ver/202632/clang-tools-extra/trunk/clang-modernize/UseNullptr/UseNullptr.h
+END
+NullptrActions.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/llvm-project/!svn/ver/192905/clang-tools-extra/trunk/clang-modernize/UseNullptr/NullptrActions.h
+END
+NullptrMatchers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/clang-modernize/UseNullptr/NullptrMatchers.cpp
+END

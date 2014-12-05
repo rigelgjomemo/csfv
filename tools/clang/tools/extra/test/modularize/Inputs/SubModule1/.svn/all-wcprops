@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/192703/clang-tools-extra/trunk/test/modularize/Inputs/SubModule1
+END
+Header1.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/llvm-project/!svn/ver/192703/clang-tools-extra/trunk/test/modularize/Inputs/SubModule1/Header1.h
+END
+Header2.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/llvm-project/!svn/ver/192703/clang-tools-extra/trunk/test/modularize/Inputs/SubModule1/Header2.h
+END

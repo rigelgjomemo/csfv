@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/210651/clang-tools-extra/trunk/test/clang-tidy
+END
+check_clang_tidy_fix.sh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/llvm-project/!svn/ver/208954/clang-tools-extra/trunk/test/clang-tidy/check_clang_tidy_fix.sh
+END
+use-override.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/210651/clang-tools-extra/trunk/test/clang-tidy/use-override.cpp
+END
+static-analyzer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/208883/clang-tools-extra/trunk/test/clang-tidy/static-analyzer.cpp
+END
+line-filter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/209569/clang-tools-extra/trunk/test/clang-tidy/line-filter.cpp
+END
+redundant-smartptr-get.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/210044/clang-tools-extra/trunk/test/clang-tidy/redundant-smartptr-get.cpp
+END
+select-checks.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/210043/clang-tools-extra/trunk/test/clang-tidy/select-checks.cpp
+END
+basic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/208883/clang-tools-extra/trunk/test/clang-tidy/basic.cpp
+END
+check_clang_tidy_output.sh
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/208883/clang-tools-extra/trunk/test/clang-tidy/check_clang_tidy_output.sh
+END
+deduplication.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/210044/clang-tools-extra/trunk/test/clang-tidy/deduplication.cpp
+END
+diagnostic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/210044/clang-tools-extra/trunk/test/clang-tidy/diagnostic.cpp
+END
+macros.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/208883/clang-tools-extra/trunk/test/clang-tidy/macros.cpp
+END
+fix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/208883/clang-tools-extra/trunk/test/clang-tidy/fix.cpp
+END
+temporaries.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/208883/clang-tools-extra/trunk/test/clang-tidy/temporaries.cpp
+END
+arg-comments.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/208883/clang-tools-extra/trunk/test/clang-tidy/arg-comments.cpp
+END
+use-override-fix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/210651/clang-tools-extra/trunk/test/clang-tidy/use-override-fix.cpp
+END
+redundant-smartptr-get-fix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/llvm-project/!svn/ver/205951/clang-tools-extra/trunk/test/clang-tidy/redundant-smartptr-get-fix.cpp
+END
+file-filter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/208883/clang-tools-extra/trunk/test/clang-tidy/file-filter.cpp
+END
+nolint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/208883/clang-tools-extra/trunk/test/clang-tidy/nolint.cpp
+END

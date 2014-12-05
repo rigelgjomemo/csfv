@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/Inputs
+END
+macro_problem.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/Inputs/macro_problem.h
+END
+structures.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/Inputs/structures.h
+END
+negative-header.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/Inputs/negative-header.h
+END

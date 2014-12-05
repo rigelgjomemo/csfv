@@ -1,0 +1,70 @@
+10
+
+dir
+210885
+http://llvm.org/svn/llvm-project/cfe/trunk/test/CXX/lex
+http://llvm.org/svn/llvm-project
+
+
+
+2013-10-07T22:58:25.794297Z
+192140
+rsmith
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91177308-0d34-0410-b5e6-96231b3b80d8
+
+lex.header
+dir
+
+lex.key
+dir
+
+lex.ppnumber
+dir
+
+lex.charset
+dir
+
+lex.literal
+dir
+
+lex.digraph
+dir
+
+lex.operators
+dir
+
+lex.name
+dir
+
+lex.pptoken
+dir
+
+lex.token
+dir
+
+lex.trigraph
+dir
+
+lex.comment
+dir
+
+lex.phases
+dir
+
+lex.separate
+dir
+

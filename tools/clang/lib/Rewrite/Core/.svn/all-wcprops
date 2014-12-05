@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/llvm-project/!svn/ver/210780/cfe/trunk/lib/Rewrite/Core
+END
+Rewriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/210780/cfe/trunk/lib/Rewrite/Core/Rewriter.cpp
+END
+TokenRewriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/169237/cfe/trunk/lib/Rewrite/Core/TokenRewriter.cpp
+END
+HTMLRewrite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/203389/cfe/trunk/lib/Rewrite/Core/HTMLRewrite.cpp
+END
+RewriteRope.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/208163/cfe/trunk/lib/Rewrite/Core/RewriteRope.cpp
+END
+DeltaTree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/208163/cfe/trunk/lib/Rewrite/Core/DeltaTree.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/202238/cfe/trunk/lib/Rewrite/Core/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/163050/cfe/trunk/lib/Rewrite/Core/Makefile
+END

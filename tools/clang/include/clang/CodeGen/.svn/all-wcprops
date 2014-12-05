@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/210293/cfe/trunk/include/clang/CodeGen
+END
+CGFunctionInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/208458/cfe/trunk/include/clang/CodeGen/CGFunctionInfo.h
+END
+ModuleBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/210293/cfe/trunk/include/clang/CodeGen/ModuleBuilder.h
+END
+CodeGenAction.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/208063/cfe/trunk/include/clang/CodeGen/CodeGenAction.h
+END
+BackendUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/198309/cfe/trunk/include/clang/CodeGen/BackendUtil.h
+END
+CodeGenABITypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/200587/cfe/trunk/include/clang/CodeGen/CodeGenABITypes.h
+END

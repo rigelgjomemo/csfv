@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/210651/clang-tools-extra/trunk/clang-tidy/misc
+END
+RedundantSmartptrGet.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/llvm-project/!svn/ver/204947/clang-tools-extra/trunk/clang-tidy/misc/RedundantSmartptrGet.h
+END
+ArgumentCommentCheck.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/llvm-project/!svn/ver/204121/clang-tools-extra/trunk/clang-tidy/misc/ArgumentCommentCheck.h
+END
+MiscTidyModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/208954/clang-tools-extra/trunk/clang-tidy/misc/MiscTidyModule.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/208954/clang-tools-extra/trunk/clang-tidy/misc/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/202970/clang-tools-extra/trunk/clang-tidy/misc/Makefile
+END
+UseOverride.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/210651/clang-tools-extra/trunk/clang-tidy/misc/UseOverride.cpp
+END
+RedundantSmartptrGet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/llvm-project/!svn/ver/207525/clang-tools-extra/trunk/clang-tidy/misc/RedundantSmartptrGet.cpp
+END
+UseOverride.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/208954/clang-tools-extra/trunk/clang-tidy/misc/UseOverride.h
+END
+ArgumentCommentCheck.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/llvm-project/!svn/ver/204121/clang-tools-extra/trunk/clang-tidy/misc/ArgumentCommentCheck.cpp
+END

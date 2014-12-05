@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/210840/clang-tools-extra/trunk/modularize
+END
+Modularize.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/210840/clang-tools-extra/trunk/modularize/Modularize.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/196860/clang-tools-extra/trunk/modularize/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/188674/clang-tools-extra/trunk/modularize/Makefile
+END
+ModuleAssistant.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/210447/clang-tools-extra/trunk/modularize/ModuleAssistant.cpp
+END
+Modularize.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/192703/clang-tools-extra/trunk/modularize/Modularize.h
+END
+PreprocessorTracker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/210447/clang-tools-extra/trunk/modularize/PreprocessorTracker.cpp
+END
+PreprocessorTracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/190950/clang-tools-extra/trunk/modularize/PreprocessorTracker.h
+END

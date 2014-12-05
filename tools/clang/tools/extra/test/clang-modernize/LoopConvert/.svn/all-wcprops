@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert
+END
+negative-iterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/negative-iterator.cpp
+END
+iterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/iterator.cpp
+END
+confidence.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/confidence.cpp
+END
+negative-pseudoarray.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/negative-pseudoarray.cpp
+END
+pseudoarray.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/pseudoarray.cpp
+END
+naming-alias.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/naming-alias.cpp
+END
+negative.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/negative.cpp
+END
+free_begin_end_fail.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/free_begin_end_fail.cpp
+END
+nesting.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/nesting.cpp
+END
+negative-multi-end-call.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/negative-multi-end-call.cpp
+END
+single-iterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/single-iterator.cpp
+END
+naming-conflict.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/naming-conflict.cpp
+END
+dependency.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/dependency.cpp
+END
+array.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/array.cpp
+END
+negative-pseudoarray-extra.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/negative-pseudoarray-extra.cpp
+END
+macro_problem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/macro_problem.cpp
+END
+nocompile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/LoopConvert/nocompile.cpp
+END

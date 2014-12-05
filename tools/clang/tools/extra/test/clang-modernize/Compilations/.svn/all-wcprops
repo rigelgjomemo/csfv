@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/196038/clang-tools-extra/trunk/test/clang-modernize/Compilations
+END
+fixed_comp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/llvm-project/!svn/ver/191213/clang-tools-extra/trunk/test/clang-modernize/Compilations/fixed_comp.cpp
+END
+fixed_comp_inc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/llvm-project/!svn/ver/191213/clang-tools-extra/trunk/test/clang-modernize/Compilations/fixed_comp_inc.cpp
+END
+compilation_inc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/llvm-project/!svn/ver/196038/clang-tools-extra/trunk/test/clang-modernize/Compilations/compilation_inc.cpp
+END
+compilation_not_inc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/llvm-project/!svn/ver/196038/clang-tools-extra/trunk/test/clang-modernize/Compilations/compilation_not_inc.cpp
+END
+detect_from_path.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/llvm-project/!svn/ver/196038/clang-tools-extra/trunk/test/clang-modernize/Compilations/detect_from_path.cpp
+END
+compilation_inc_sources.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/llvm-project/!svn/ver/191213/clang-tools-extra/trunk/test/clang-modernize/Compilations/compilation_inc_sources.cpp
+END
+no_compilation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/llvm-project/!svn/ver/191213/clang-tools-extra/trunk/test/clang-modernize/Compilations/no_compilation.cpp
+END
+detect_from_source.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/llvm-project/!svn/ver/191213/clang-tools-extra/trunk/test/clang-modernize/Compilations/detect_from_source.cpp
+END

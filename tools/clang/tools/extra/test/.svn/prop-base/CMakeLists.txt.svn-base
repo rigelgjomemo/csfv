@@ -1,0 +1,18 @@
+K 13
+svn:eol-style
+V 6
+native
+K 12
+svn:keywords
+V 2
+Id
+K 13
+svn:mergeinfo
+V 123
+/cfe/branches/type-system-rewrite/test/CMakeLists.txt:134693-134817
+/cfe/trunk/test/SemaTemplate/test/CMakeLists.txt:126920
+K 13
+svn:mime-type
+V 10
+text/plain
+END

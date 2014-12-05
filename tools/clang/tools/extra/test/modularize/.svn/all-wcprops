@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/192703/clang-tools-extra/trunk/test/modularize
+END
+NoProblemsDependencies.modularize
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/llvm-project/!svn/ver/189983/clang-tools-extra/trunk/test/modularize/NoProblemsDependencies.modularize
+END
+NoProblemsAnonymous.modularize
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/llvm-project/!svn/ver/189228/clang-tools-extra/trunk/test/modularize/NoProblemsAnonymous.modularize
+END
+NoProblemsAssistant.modularize
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/llvm-project/!svn/ver/192703/clang-tools-extra/trunk/test/modularize/NoProblemsAssistant.modularize
+END
+NoProblemsTemplateClasses.modularize
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/llvm-project/!svn/ver/189228/clang-tools-extra/trunk/test/modularize/NoProblemsTemplateClasses.modularize
+END
+NoProblemsNamespaceClasses.modularize
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/llvm-project/!svn/ver/189228/clang-tools-extra/trunk/test/modularize/NoProblemsNamespaceClasses.modularize
+END
+ProblemsExternC.modularize
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/191092/clang-tools-extra/trunk/test/modularize/ProblemsExternC.modularize
+END
+SubModule2.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/192703/clang-tools-extra/trunk/test/modularize/SubModule2.h
+END
+ProblemsDuplicate.modularize
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/llvm-project/!svn/ver/185654/clang-tools-extra/trunk/test/modularize/ProblemsDuplicate.modularize
+END
+NoProblems.modularize
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/llvm-project/!svn/ver/178047/clang-tools-extra/trunk/test/modularize/NoProblems.modularize
+END
+ProblemsNamespace.modularize
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/llvm-project/!svn/ver/191092/clang-tools-extra/trunk/test/modularize/ProblemsNamespace.modularize
+END
+NoProblemsGuard.modularize
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/187898/clang-tools-extra/trunk/test/modularize/NoProblemsGuard.modularize
+END
+ProblemsInconsistent.modularize
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/llvm-project/!svn/ver/187287/clang-tools-extra/trunk/test/modularize/ProblemsInconsistent.modularize
+END
+NoProblemsNestedMacro.modularize
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/llvm-project/!svn/ver/188036/clang-tools-extra/trunk/test/modularize/NoProblemsNestedMacro.modularize
+END

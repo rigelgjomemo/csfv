@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/llvm-project/!svn/ver/210305/cfe/trunk/test/OpenMP
+END
+parallel_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/203081/cfe/trunk/test/OpenMP/parallel_messages.cpp
+END
+threadprivate_ast_print.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/203214/cfe/trunk/test/OpenMP/threadprivate_ast_print.cpp
+END
+parallel_firstprivate_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/203081/cfe/trunk/test/OpenMP/parallel_firstprivate_messages.cpp
+END
+predefined_macro.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/203114/cfe/trunk/test/OpenMP/predefined_macro.c
+END
+no_option_no_warn.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/177705/cfe/trunk/test/OpenMP/no_option_no_warn.c
+END
+parallel_default_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/203081/cfe/trunk/test/OpenMP/parallel_default_messages.cpp
+END
+threadprivate_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/210305/cfe/trunk/test/OpenMP/threadprivate_messages.cpp
+END
+linking.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/203212/cfe/trunk/test/OpenMP/linking.c
+END
+simd_metadata.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/209411/cfe/trunk/test/OpenMP/simd_metadata.c
+END
+simd_misc_messages.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/210184/cfe/trunk/test/OpenMP/simd_misc_messages.c
+END
+option_warn.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/177705/cfe/trunk/test/OpenMP/option_warn.c
+END
+parallel_if_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/203081/cfe/trunk/test/OpenMP/parallel_if_messages.cpp
+END
+simd_lastprivate_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/210184/cfe/trunk/test/OpenMP/simd_lastprivate_messages.cpp
+END
+parallel_proc_bind_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/208060/cfe/trunk/test/OpenMP/parallel_proc_bind_messages.cpp
+END
+no_option.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/177705/cfe/trunk/test/OpenMP/no_option.c
+END
+parallel_copyin_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/205164/cfe/trunk/test/OpenMP/parallel_copyin_messages.cpp
+END
+simd_collapse_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/209660/cfe/trunk/test/OpenMP/simd_collapse_messages.cpp
+END
+simd_aligned_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/209816/cfe/trunk/test/OpenMP/simd_aligned_messages.cpp
+END
+openmp_common.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/203081/cfe/trunk/test/OpenMP/openmp_common.c
+END
+parallel_shared_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/203081/cfe/trunk/test/OpenMP/parallel_shared_messages.cpp
+END
+parallel_num_threads_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/203087/cfe/trunk/test/OpenMP/parallel_num_threads_messages.cpp
+END
+simd_loop_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/210184/cfe/trunk/test/OpenMP/simd_loop_messages.cpp
+END
+parallel_private_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/203081/cfe/trunk/test/OpenMP/parallel_private_messages.cpp
+END
+simd_linear_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/206891/cfe/trunk/test/OpenMP/simd_linear_messages.cpp
+END
+simd_private_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/203108/cfe/trunk/test/OpenMP/simd_private_messages.cpp
+END
+parallel_ast_print.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/208060/cfe/trunk/test/OpenMP/parallel_ast_print.cpp
+END
+simd_ast_print.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/210184/cfe/trunk/test/OpenMP/simd_ast_print.cpp
+END
+parallel_codegen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/210050/cfe/trunk/test/OpenMP/parallel_codegen.cpp
+END
+simd_safelen_messages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/204428/cfe/trunk/test/OpenMP/simd_safelen_messages.cpp
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/208926/cfe/trunk/examples/clang-interpreter
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/208926/cfe/trunk/examples/clang-interpreter/main.cpp
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/97133/cfe/trunk/examples/clang-interpreter/README.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/196916/cfe/trunk/examples/clang-interpreter/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/196915/cfe/trunk/examples/clang-interpreter/Makefile
+END

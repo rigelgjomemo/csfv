@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/UseAuto
+END
+iterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/UseAuto/iterator.cpp
+END
+new.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/UseAuto/new.cpp
+END
+new_cv_failing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/UseAuto/new_cv_failing.cpp
+END
+basic_iterator_tests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/UseAuto/basic_iterator_tests.cpp
+END

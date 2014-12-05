@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/llvm-project/!svn/ver/210840/clang-tools-extra/trunk
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/176417/clang-tools-extra/trunk/.gitignore
+END
+CODE_OWNERS.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/192189/clang-tools-extra/trunk/CODE_OWNERS.TXT
+END
+.arcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/205703/clang-tools-extra/trunk/.arcconfig
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/192541/clang-tools-extra/trunk/README.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/200603/clang-tools-extra/trunk/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/Makefile
+END
+LICENSE.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/198274/clang-tools-extra/trunk/LICENSE.TXT
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/210797/clang-tools-extra/trunk/clang-tidy
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/209450/clang-tools-extra/trunk/clang-tidy/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/202970/clang-tools-extra/trunk/clang-tidy/Makefile
+END
+ClangTidy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/210447/clang-tools-extra/trunk/clang-tidy/ClangTidy.cpp
+END
+ClangTidyDiagnosticConsumer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/210260/clang-tools-extra/trunk/clang-tidy/ClangTidyDiagnosticConsumer.cpp
+END
+ClangTidyOptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/210797/clang-tools-extra/trunk/clang-tidy/ClangTidyOptions.h
+END
+ClangTidyModuleRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/187345/clang-tools-extra/trunk/clang-tidy/ClangTidyModuleRegistry.h
+END
+ClangTidy.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/210260/clang-tools-extra/trunk/clang-tidy/ClangTidy.h
+END
+ClangTidyDiagnosticConsumer.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/llvm-project/!svn/ver/210260/clang-tools-extra/trunk/clang-tidy/ClangTidyDiagnosticConsumer.h
+END
+ClangTidyModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/210260/clang-tools-extra/trunk/clang-tidy/ClangTidyModule.cpp
+END
+ClangTidyModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/210260/clang-tools-extra/trunk/clang-tidy/ClangTidyModule.h
+END
+ClangTidyOptions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/210776/clang-tools-extra/trunk/clang-tidy/ClangTidyOptions.cpp
+END

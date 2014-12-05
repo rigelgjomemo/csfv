@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker
+END
+main-test.module-map-checker
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker/main-test.module-map-checker
+END
+includes.module-map-checker
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker/includes.module-map-checker
+END

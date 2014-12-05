@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/207238/clang-tools-extra/trunk/unittests/clang-query
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/196860/clang-tools-extra/trunk/unittests/clang-query/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/194227/clang-tools-extra/trunk/unittests/clang-query/Makefile
+END
+QueryParserTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/207231/clang-tools-extra/trunk/unittests/clang-query/QueryParserTest.cpp
+END
+QueryEngineTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/207238/clang-tools-extra/trunk/unittests/clang-query/QueryEngineTest.cpp
+END

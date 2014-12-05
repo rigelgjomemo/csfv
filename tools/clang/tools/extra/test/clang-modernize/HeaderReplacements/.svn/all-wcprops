@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/llvm-project/!svn/ver/200076/clang-tools-extra/trunk/test/clang-modernize/HeaderReplacements
+END
+no_yaml.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/llvm-project/!svn/ver/200076/clang-tools-extra/trunk/test/clang-modernize/HeaderReplacements/no_yaml.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/llvm-project/!svn/ver/196559/clang-tools-extra/trunk/test/clang-modernize/HeaderReplacements/main.cpp
+END
+main_expected.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/llvm-project/!svn/ver/196559/clang-tools-extra/trunk/test/clang-modernize/HeaderReplacements/main_expected.yaml
+END
+common.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/HeaderReplacements/common.cpp
+END
+common_expected.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/llvm-project/!svn/ver/196559/clang-tools-extra/trunk/test/clang-modernize/HeaderReplacements/common_expected.yaml
+END
+common.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/HeaderReplacements/common.h
+END

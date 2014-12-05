@@ -1,0 +1,14 @@
+K 13
+svn:eol-style
+V 6
+native
+K 12
+svn:keywords
+V 23
+Author Date Id Revision
+K 13
+svn:mergeinfo
+V 111
+/cfe/branches/type-system-rewrite/test/Makefile:134693-134817
+/cfe/trunk/test/SemaTemplate/test/Makefile:126920
+END

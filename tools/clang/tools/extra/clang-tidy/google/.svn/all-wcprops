@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/209062/clang-tools-extra/trunk/clang-tidy/google
+END
+GoogleTidyModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/202969/clang-tools-extra/trunk/clang-tidy/google/GoogleTidyModule.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/202238/clang-tools-extra/trunk/clang-tidy/google/CMakeLists.txt
+END
+GoogleTidyModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/llvm-project/!svn/ver/209062/clang-tools-extra/trunk/clang-tidy/google/GoogleTidyModule.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/187345/clang-tools-extra/trunk/clang-tidy/google/Makefile
+END

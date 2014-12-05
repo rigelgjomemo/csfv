@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/207970/clang-tools-extra/trunk/test/clang-tidy/Inputs/file-filter
+END
+header1.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/llvm-project/!svn/ver/207970/clang-tools-extra/trunk/test/clang-tidy/Inputs/file-filter/header1.h
+END
+header2.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/llvm-project/!svn/ver/207970/clang-tools-extra/trunk/test/clang-tidy/Inputs/file-filter/header2.h
+END

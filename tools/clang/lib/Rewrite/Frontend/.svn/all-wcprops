@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/210498/cfe/trunk/lib/Rewrite/Frontend
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/202238/cfe/trunk/lib/Rewrite/Frontend/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/163050/cfe/trunk/lib/Rewrite/Frontend/Makefile
+END
+RewriteObjC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/210498/cfe/trunk/lib/Rewrite/Frontend/RewriteObjC.cpp
+END
+FrontendActions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/208163/cfe/trunk/lib/Rewrite/Frontend/FrontendActions.cpp
+END
+HTMLPrint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/203999/cfe/trunk/lib/Rewrite/Frontend/HTMLPrint.cpp
+END
+RewriteTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/163050/cfe/trunk/lib/Rewrite/Frontend/RewriteTest.cpp
+END
+RewriteModernObjC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/210498/cfe/trunk/lib/Rewrite/Frontend/RewriteModernObjC.cpp
+END
+RewriteMacros.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/203389/cfe/trunk/lib/Rewrite/Frontend/RewriteMacros.cpp
+END
+FixItRewriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/203999/cfe/trunk/lib/Rewrite/Frontend/FixItRewriter.cpp
+END
+InclusionRewriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/208163/cfe/trunk/lib/Rewrite/Frontend/InclusionRewriter.cpp
+END

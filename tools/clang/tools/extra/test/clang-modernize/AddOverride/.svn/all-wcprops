@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/AddOverride
+END
+pure_specifier_fail.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/AddOverride/pure_specifier_fail.cpp
+END
+basic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/AddOverride/basic.cpp
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/207407/clang-tools-extra/trunk/tool-template
+END
+ToolTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/207407/clang-tools-extra/trunk/tool-template/ToolTemplate.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/196860/clang-tools-extra/trunk/tool-template/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/183990/clang-tools-extra/trunk/tool-template/Makefile
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/190158/clang-tools-extra/trunk/test/clang-modernize/UseNullptr
+END
+basic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/190158/clang-tools-extra/trunk/test/clang-modernize/UseNullptr/basic.cpp
+END
+nullptr_t.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/UseNullptr/nullptr_t.cpp
+END
+macros.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/UseNullptr/macros.cpp
+END
+basic_failing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/UseNullptr/basic_failing.cpp
+END

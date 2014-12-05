@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/203369/clang-tools-extra/trunk/test/pp-trace
+END
+pp-trace-conditional.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/llvm-project/!svn/ver/196648/clang-tools-extra/trunk/test/pp-trace/pp-trace-conditional.cpp
+END
+pp-trace-ident.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/194447/clang-tools-extra/trunk/test/pp-trace/pp-trace-ident.cpp
+END
+pp-trace-include.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/194504/clang-tools-extra/trunk/test/pp-trace/pp-trace-include.cpp
+END
+pp-trace-pragma-ms.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/194636/clang-tools-extra/trunk/test/pp-trace/pp-trace-pragma-ms.cpp
+END
+pp-trace-pragma-opencl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/llvm-project/!svn/ver/194636/clang-tools-extra/trunk/test/pp-trace/pp-trace-pragma-opencl.cpp
+END
+pp-trace-modules.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/203369/clang-tools-extra/trunk/test/pp-trace/pp-trace-modules.cpp
+END
+pp-trace-macro.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/196648/clang-tools-extra/trunk/test/pp-trace/pp-trace-macro.cpp
+END
+pp-trace-pragma-general.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/194636/clang-tools-extra/trunk/test/pp-trace/pp-trace-pragma-general.cpp
+END

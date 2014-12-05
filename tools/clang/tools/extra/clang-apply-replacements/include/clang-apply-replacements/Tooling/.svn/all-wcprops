@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/llvm-project/!svn/ver/210797/clang-tools-extra/trunk/clang-apply-replacements/include/clang-apply-replacements/Tooling
+END
+ApplyReplacements.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/llvm-project/!svn/ver/210797/clang-tools-extra/trunk/clang-apply-replacements/include/clang-apply-replacements/Tooling/ApplyReplacements.h
+END

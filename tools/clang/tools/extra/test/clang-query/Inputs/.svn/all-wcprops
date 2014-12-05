@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/194227/clang-tools-extra/trunk/test/clang-query/Inputs
+END
+foo.script
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/194227/clang-tools-extra/trunk/test/clang-query/Inputs/foo.script
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/llvm-project/!svn/ver/191667/clang-tools-extra/trunk/test/clang-apply-replacements/Inputs/format
+END
+no.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/llvm-project/!svn/ver/191667/clang-tools-extra/trunk/test/clang-apply-replacements/Inputs/format/no.cpp
+END
+no.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/llvm-project/!svn/ver/191667/clang-tools-extra/trunk/test/clang-apply-replacements/Inputs/format/no.yaml
+END
+yes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/llvm-project/!svn/ver/191667/clang-tools-extra/trunk/test/clang-apply-replacements/Inputs/format/yes.cpp
+END
+yes.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/llvm-project/!svn/ver/191667/clang-tools-extra/trunk/test/clang-apply-replacements/Inputs/format/yes.yaml
+END

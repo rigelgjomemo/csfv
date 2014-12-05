@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/llvm-project/!svn/ver/210780/cfe/trunk/lib/Rewrite
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/163050/cfe/trunk/lib/Rewrite/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/163050/cfe/trunk/lib/Rewrite/Makefile
+END

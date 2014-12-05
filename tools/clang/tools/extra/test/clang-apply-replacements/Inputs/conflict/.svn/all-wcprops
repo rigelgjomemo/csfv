@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/llvm-project/!svn/ver/190489/clang-tools-extra/trunk/test/clang-apply-replacements/Inputs/conflict
+END
+file1.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/llvm-project/!svn/ver/190489/clang-tools-extra/trunk/test/clang-apply-replacements/Inputs/conflict/file1.yaml
+END
+file2.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/llvm-project/!svn/ver/190489/clang-tools-extra/trunk/test/clang-apply-replacements/Inputs/conflict/file2.yaml
+END
+file3.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/llvm-project/!svn/ver/190489/clang-tools-extra/trunk/test/clang-apply-replacements/Inputs/conflict/file3.yaml
+END
+common.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/llvm-project/!svn/ver/189832/clang-tools-extra/trunk/test/clang-apply-replacements/Inputs/conflict/common.h
+END
+expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/llvm-project/!svn/ver/189832/clang-tools-extra/trunk/test/clang-apply-replacements/Inputs/conflict/expected.txt
+END

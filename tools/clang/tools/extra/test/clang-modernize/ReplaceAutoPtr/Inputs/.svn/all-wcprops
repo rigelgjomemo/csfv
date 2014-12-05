@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/ReplaceAutoPtr/Inputs
+END
+memory_stub.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/ReplaceAutoPtr/Inputs/memory_stub.h
+END
+basic.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/ReplaceAutoPtr/Inputs/basic.h
+END

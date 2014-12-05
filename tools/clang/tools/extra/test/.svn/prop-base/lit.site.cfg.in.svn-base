@@ -1,0 +1,6 @@
+K 13
+svn:mergeinfo
+V 125
+/cfe/branches/type-system-rewrite/test/lit.site.cfg.in:134693-134817
+/cfe/trunk/test/SemaTemplate/test/lit.site.cfg.in:126920
+END

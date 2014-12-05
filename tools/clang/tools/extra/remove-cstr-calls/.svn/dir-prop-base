@@ -1,0 +1,7 @@
+K 13
+svn:mergeinfo
+V 180
+/cfe/branches/type-system-rewrite/tools/remove-cstr-calls:134693-134817
+/cfe/trunk/test/SemaTemplate/tools/remove-cstr-calls:126920
+/cfe/trunk/tools/remove-cstr-calls:146581-159761
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/191667/clang-tools-extra/trunk/test/clang-apply-replacements
+END
+format.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/llvm-project/!svn/ver/191667/clang-tools-extra/trunk/test/clang-apply-replacements/format.cpp
+END
+basic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/llvm-project/!svn/ver/189832/clang-tools-extra/trunk/test/clang-apply-replacements/basic.cpp
+END
+conflict.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/189832/clang-tools-extra/trunk/test/clang-apply-replacements/conflict.cpp
+END

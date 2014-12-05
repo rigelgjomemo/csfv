@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/192032/clang-tools-extra/trunk/test/clang-modernize/Core
+END
+Reformatting.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/192032/clang-tools-extra/trunk/test/clang-modernize/Core/Reformatting.cpp
+END

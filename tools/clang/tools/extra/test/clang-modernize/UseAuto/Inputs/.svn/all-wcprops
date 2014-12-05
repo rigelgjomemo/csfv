@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/UseAuto/Inputs
+END
+test_std_container.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/test/clang-modernize/UseAuto/Inputs/test_std_container.h
+END

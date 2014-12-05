@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/210447/clang-tools-extra/trunk/clang-modernize/AddOverride
+END
+AddOverride.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/llvm-project/!svn/ver/210447/clang-tools-extra/trunk/clang-modernize/AddOverride/AddOverride.cpp
+END
+AddOverrideActions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/llvm-project/!svn/ver/210447/clang-tools-extra/trunk/clang-modernize/AddOverride/AddOverrideActions.cpp
+END
+AddOverride.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/202632/clang-tools-extra/trunk/clang-modernize/AddOverride/AddOverride.h
+END
+AddOverrideActions.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/llvm-project/!svn/ver/189973/clang-tools-extra/trunk/clang-modernize/AddOverride/AddOverrideActions.h
+END
+AddOverrideMatchers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/clang-modernize/AddOverride/AddOverrideMatchers.cpp
+END
+AddOverrideMatchers.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/llvm-project/!svn/ver/189973/clang-tools-extra/trunk/clang-modernize/AddOverride/AddOverrideMatchers.h
+END

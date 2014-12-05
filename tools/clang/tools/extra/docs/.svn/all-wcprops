@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/llvm-project/!svn/ver/210521/clang-tools-extra/trunk/docs
+END
+PassByValueTransform.rst
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/docs/PassByValueTransform.rst
+END
+clang-tidy.rst
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/208979/clang-tools-extra/trunk/docs/clang-tidy.rst
+END
+ModularizeUsage.rst
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/192792/clang-tools-extra/trunk/docs/ModularizeUsage.rst
+END
+module-map-checker.rst
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/docs/module-map-checker.rst
+END
+ModernizerUsage.rst
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/192105/clang-tools-extra/trunk/docs/ModernizerUsage.rst
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/185535/clang-tools-extra/trunk/docs/README.txt
+END
+conf.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/198274/clang-tools-extra/trunk/docs/conf.py
+END
+LoopConvertTransform.rst
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/docs/LoopConvertTransform.rst
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/176267/clang-tools-extra/trunk/docs/Makefile
+END
+index.rst
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/202164/clang-tools-extra/trunk/docs/index.rst
+END
+UseNullptrTransform.rst
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/docs/UseNullptrTransform.rst
+END
+MigratorUsage.rst
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/190195/clang-tools-extra/trunk/docs/MigratorUsage.rst
+END
+cpp11-migrate.rst
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/190195/clang-tools-extra/trunk/docs/cpp11-migrate.rst
+END
+pp-trace.rst
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/210521/clang-tools-extra/trunk/docs/pp-trace.rst
+END
+modularize.rst
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/192792/clang-tools-extra/trunk/docs/modularize.rst
+END
+make.bat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/175118/clang-tools-extra/trunk/docs/make.bat
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/198831/clang-tools-extra/trunk/docs/Doxyfile
+END
+clang-modernize.rst
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/192105/clang-tools-extra/trunk/docs/clang-modernize.rst
+END
+UseAutoTransform.rst
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/docs/UseAutoTransform.rst
+END
+AddOverrideTransform.rst
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/202633/clang-tools-extra/trunk/docs/AddOverrideTransform.rst
+END
+ReplaceAutoPtrTransform.rst
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/docs/ReplaceAutoPtrTransform.rst
+END

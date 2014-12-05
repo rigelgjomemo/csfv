@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/210797/clang-tools-extra/trunk/unittests
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/194227/clang-tools-extra/trunk/unittests/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/194227/clang-tools-extra/trunk/unittests/Makefile
+END

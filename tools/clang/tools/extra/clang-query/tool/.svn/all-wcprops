@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/209313/clang-tools-extra/trunk/clang-query/tool
+END
+ClangQuery.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/209313/clang-tools-extra/trunk/clang-query/tool/ClangQuery.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/llvm-project/!svn/ver/201599/clang-tools-extra/trunk/clang-query/tool/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/201599/clang-tools-extra/trunk/clang-query/tool/Makefile
+END

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/210840/clang-tools-extra/trunk/clang-modernize/Core
+END
+Transforms.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/198703/clang-tools-extra/trunk/clang-modernize/Core/Transforms.h
+END
+ReplacementHandling.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/llvm-project/!svn/ver/210840/clang-tools-extra/trunk/clang-modernize/Core/ReplacementHandling.cpp
+END
+IncludeDirectives.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/210447/clang-tools-extra/trunk/clang-modernize/Core/IncludeDirectives.cpp
+END
+CustomMatchers.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/llvm-project/!svn/ver/189973/clang-tools-extra/trunk/clang-modernize/Core/CustomMatchers.h
+END
+Refactoring.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/189973/clang-tools-extra/trunk/clang-modernize/Core/Refactoring.h
+END
+ReplacementHandling.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/198703/clang-tools-extra/trunk/clang-modernize/Core/ReplacementHandling.h
+END
+IncludeExcludeInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/llvm-project/!svn/ver/210840/clang-tools-extra/trunk/clang-modernize/Core/IncludeExcludeInfo.cpp
+END
+IncludeDirectives.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/llvm-project/!svn/ver/198703/clang-tools-extra/trunk/clang-modernize/Core/IncludeDirectives.h
+END
+Transform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/202646/clang-tools-extra/trunk/clang-modernize/Core/Transform.cpp
+END
+IncludeExcludeInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/210797/clang-tools-extra/trunk/clang-modernize/Core/IncludeExcludeInfo.h
+END
+Transform.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/203382/clang-tools-extra/trunk/clang-modernize/Core/Transform.h
+END
+PerfSupport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/202055/clang-tools-extra/trunk/clang-modernize/Core/PerfSupport.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/189966/clang-tools-extra/trunk/clang-modernize/Core/Makefile
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/202238/clang-tools-extra/trunk/clang-modernize/Core/CMakeLists.txt
+END
+Transforms.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/203382/clang-tools-extra/trunk/clang-modernize/Core/Transforms.cpp
+END
+PerfSupport.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/198703/clang-tools-extra/trunk/clang-modernize/Core/PerfSupport.h
+END

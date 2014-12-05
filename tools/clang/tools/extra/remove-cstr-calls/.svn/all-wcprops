@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/210797/clang-tools-extra/trunk/remove-cstr-calls
+END
+RemoveCStrCalls.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/llvm-project/!svn/ver/210797/clang-tools-extra/trunk/remove-cstr-calls/RemoveCStrCalls.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/196860/clang-tools-extra/trunk/remove-cstr-calls/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/183990/clang-tools-extra/trunk/remove-cstr-calls/Makefile
+END

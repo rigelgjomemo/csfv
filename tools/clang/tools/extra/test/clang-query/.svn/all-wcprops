@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/201599/clang-tools-extra/trunk/test/clang-query
+END
+function-decl.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/201599/clang-tools-extra/trunk/test/clang-query/function-decl.c
+END
+errors.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/201599/clang-tools-extra/trunk/test/clang-query/errors.c
+END

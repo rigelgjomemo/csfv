@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/192032/clang-tools-extra/trunk/test/clang-modernize/Core/Inputs
+END
+.clang-format
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/llvm-project/!svn/ver/192032/clang-tools-extra/trunk/test/clang-modernize/Core/Inputs/.clang-format
+END

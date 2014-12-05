@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/210447/clang-tools-extra/trunk/clang-modernize/tool
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/196860/clang-tools-extra/trunk/clang-modernize/tool/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/llvm-project/!svn/ver/192032/clang-tools-extra/trunk/clang-modernize/tool/Makefile
+END
+ClangModernize.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/llvm-project/!svn/ver/210447/clang-tools-extra/trunk/clang-modernize/tool/ClangModernize.cpp
+END

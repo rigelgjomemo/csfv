@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/188092/clang-tools-extra/trunk/test/Unit
+END
+lit.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/188092/clang-tools-extra/trunk/test/Unit/lit.cfg
+END
+lit.site.cfg.in
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/188092/clang-tools-extra/trunk/test/Unit/lit.site.cfg.in
+END

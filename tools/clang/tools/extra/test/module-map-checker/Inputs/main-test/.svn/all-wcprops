@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker/Inputs/main-test
+END
+UmbrellaFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker/Inputs/main-test/UmbrellaFile.h
+END
+UmbrellaInclude1.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker/Inputs/main-test/UmbrellaInclude1.h
+END
+Level1A.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker/Inputs/main-test/Level1A.h
+END
+UmbrellaInclude2.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker/Inputs/main-test/UmbrellaInclude2.h
+END
+Level1B.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker/Inputs/main-test/Level1B.h
+END
+Level2A.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker/Inputs/main-test/Level2A.h
+END
+Level2B.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker/Inputs/main-test/Level2B.h
+END
+Level3A.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker/Inputs/main-test/Level3A.h
+END
+module.map
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/llvm-project/!svn/ver/198693/clang-tools-extra/trunk/test/module-map-checker/Inputs/main-test/module.map
+END

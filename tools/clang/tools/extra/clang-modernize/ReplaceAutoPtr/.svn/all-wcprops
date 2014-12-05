@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/202632/clang-tools-extra/trunk/clang-modernize/ReplaceAutoPtr
+END
+ReplaceAutoPtrMatchers.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/llvm-project/!svn/ver/189973/clang-tools-extra/trunk/clang-modernize/ReplaceAutoPtr/ReplaceAutoPtrMatchers.h
+END
+ReplaceAutoPtr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/llvm-project/!svn/ver/202632/clang-tools-extra/trunk/clang-modernize/ReplaceAutoPtr/ReplaceAutoPtr.cpp
+END
+ReplaceAutoPtrActions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/llvm-project/!svn/ver/198703/clang-tools-extra/trunk/clang-modernize/ReplaceAutoPtr/ReplaceAutoPtrActions.cpp
+END
+ReplaceAutoPtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/llvm-project/!svn/ver/202632/clang-tools-extra/trunk/clang-modernize/ReplaceAutoPtr/ReplaceAutoPtr.h
+END
+ReplaceAutoPtrActions.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/llvm-project/!svn/ver/202632/clang-tools-extra/trunk/clang-modernize/ReplaceAutoPtr/ReplaceAutoPtrActions.h
+END
+ReplaceAutoPtrMatchers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/clang-modernize/ReplaceAutoPtr/ReplaceAutoPtrMatchers.cpp
+END

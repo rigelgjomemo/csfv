@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/202632/clang-tools-extra/trunk/clang-modernize/UseAuto
+END
+UseAuto.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/llvm-project/!svn/ver/202632/clang-tools-extra/trunk/clang-modernize/UseAuto/UseAuto.cpp
+END
+UseAutoActions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/clang-modernize/UseAuto/UseAutoActions.cpp
+END
+UseAuto.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/202632/clang-tools-extra/trunk/clang-modernize/UseAuto/UseAuto.h
+END
+UseAutoActions.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/llvm-project/!svn/ver/202632/clang-tools-extra/trunk/clang-modernize/UseAuto/UseAutoActions.h
+END
+UseAutoMatchers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/llvm-project/!svn/ver/189960/clang-tools-extra/trunk/clang-modernize/UseAuto/UseAutoMatchers.cpp
+END
+UseAutoMatchers.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/llvm-project/!svn/ver/189973/clang-tools-extra/trunk/clang-modernize/UseAuto/UseAutoMatchers.h
+END

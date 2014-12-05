@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/198703/clang-tools-extra/trunk/unittests/clang-apply-replacements
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/llvm-project/!svn/ver/196860/clang-tools-extra/trunk/unittests/clang-apply-replacements/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/llvm-project/!svn/ver/191669/clang-tools-extra/trunk/unittests/clang-apply-replacements/Makefile
+END
+ReformattingTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/llvm-project/!svn/ver/198703/clang-tools-extra/trunk/unittests/clang-apply-replacements/ReformattingTest.cpp
+END

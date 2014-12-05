@@ -1,0 +1,431 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/llvm-project/!svn/ver/210832/cfe/trunk/lib/CodeGen
+END
+CodeGenTBAA.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/183598/cfe/trunk/lib/CodeGen/CodeGenTBAA.h
+END
+CodeGenAction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/210832/cfe/trunk/lib/CodeGen/CodeGenAction.cpp
+END
+CGOpenCLRuntime.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/171369/cfe/trunk/lib/CodeGen/CGOpenCLRuntime.h
+END
+MicrosoftCXXABI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/210368/cfe/trunk/lib/CodeGen/MicrosoftCXXABI.cpp
+END
+CGBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/209411/cfe/trunk/lib/CodeGen/CGBuilder.h
+END
+CodeGenABITypes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/200587/cfe/trunk/lib/CodeGen/CodeGenABITypes.cpp
+END
+CGException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/210204/cfe/trunk/lib/CodeGen/CGException.cpp
+END
+CodeGenPGO.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/208939/cfe/trunk/lib/CodeGen/CodeGenPGO.cpp
+END
+CGCXX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/210063/cfe/trunk/lib/CodeGen/CGCXX.cpp
+END
+ABIInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/198686/cfe/trunk/lib/CodeGen/ABIInfo.h
+END
+CGVTables.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/210039/cfe/trunk/lib/CodeGen/CGVTables.h
+END
+CGExprComplex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CGExprComplex.cpp
+END
+CGDebugInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/210047/cfe/trunk/lib/CodeGen/CGDebugInfo.h
+END
+CGOpenMPRuntime.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/209876/cfe/trunk/lib/CodeGen/CGOpenMPRuntime.h
+END
+CGObjC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CGObjC.cpp
+END
+CodeGenTypes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CodeGenTypes.cpp
+END
+CGCall.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CGCall.h
+END
+CGCUDARuntime.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CGCUDARuntime.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/108633/cfe/trunk/lib/CodeGen/Makefile
+END
+CGBlocks.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/208377/cfe/trunk/lib/CodeGen/CGBlocks.h
+END
+CGCXXABI.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/210368/cfe/trunk/lib/CodeGen/CGCXXABI.h
+END
+CGObjCRuntime.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CGObjCRuntime.h
+END
+TargetInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/210402/cfe/trunk/lib/CodeGen/TargetInfo.cpp
+END
+CGLoopInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/209411/cfe/trunk/lib/CodeGen/CGLoopInfo.h
+END
+CGDeclCXX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/209555/cfe/trunk/lib/CodeGen/CGDeclCXX.cpp
+END
+CGExprAgg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/210092/cfe/trunk/lib/CodeGen/CGExprAgg.cpp
+END
+CodeGenModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/210780/cfe/trunk/lib/CodeGen/CodeGenModule.cpp
+END
+CGExprCXX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/210377/cfe/trunk/lib/CodeGen/CGExprCXX.cpp
+END
+CodeGenPGO.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CodeGenPGO.h
+END
+EHScopeStack.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/EHScopeStack.h
+END
+BackendUtil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/210041/cfe/trunk/lib/CodeGen/BackendUtil.cpp
+END
+CGCall.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/209723/cfe/trunk/lib/CodeGen/CGCall.cpp
+END
+CGBlocks.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/210293/cfe/trunk/lib/CodeGen/CGBlocks.cpp
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/76844/cfe/trunk/lib/CodeGen/README.txt
+END
+CGRecordLayout.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/206680/cfe/trunk/lib/CodeGen/CGRecordLayout.h
+END
+CGObjCRuntime.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/210204/cfe/trunk/lib/CodeGen/CGObjCRuntime.cpp
+END
+ModuleBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/210356/cfe/trunk/lib/CodeGen/ModuleBuilder.cpp
+END
+CGCUDARuntime.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/141304/cfe/trunk/lib/CodeGen/CGCUDARuntime.h
+END
+CGLoopInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/209411/cfe/trunk/lib/CodeGen/CGLoopInfo.cpp
+END
+CGStmt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/210667/cfe/trunk/lib/CodeGen/CGStmt.cpp
+END
+CGObjCGNU.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/210214/cfe/trunk/lib/CodeGen/CGObjCGNU.cpp
+END
+CGExprConstant.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CGExprConstant.cpp
+END
+ItaniumCXXABI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/210632/cfe/trunk/lib/CodeGen/ItaniumCXXABI.cpp
+END
+CGCleanup.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/210204/cfe/trunk/lib/CodeGen/CGCleanup.h
+END
+TargetInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/TargetInfo.h
+END
+CGObjCMac.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/210547/cfe/trunk/lib/CodeGen/CGObjCMac.cpp
+END
+CodeGenFunction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/209411/cfe/trunk/lib/CodeGen/CodeGenFunction.cpp
+END
+CGExprScalar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/209942/cfe/trunk/lib/CodeGen/CGExprScalar.cpp
+END
+CodeGenModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/210293/cfe/trunk/lib/CodeGen/CodeGenModule.h
+END
+CGStmtOpenMP.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/209411/cfe/trunk/lib/CodeGen/CGStmtOpenMP.cpp
+END
+CGAtomic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CGAtomic.cpp
+END
+CGVTT.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/201011/cfe/trunk/lib/CodeGen/CGVTT.cpp
+END
+CGExpr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/210751/cfe/trunk/lib/CodeGen/CGExpr.cpp
+END
+CGRTTI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/209523/cfe/trunk/lib/CodeGen/CGRTTI.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/209523/cfe/trunk/lib/CodeGen/CMakeLists.txt
+END
+CodeGenTBAA.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CodeGenTBAA.cpp
+END
+CGOpenCLRuntime.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CGOpenCLRuntime.cpp
+END
+CGCleanup.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CGCleanup.cpp
+END
+MicrosoftRTTI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/210448/cfe/trunk/lib/CodeGen/MicrosoftRTTI.cpp
+END
+CGVTables.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/210368/cfe/trunk/lib/CodeGen/CGVTables.cpp
+END
+CGOpenMPRuntime.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/209876/cfe/trunk/lib/CodeGen/CGOpenMPRuntime.cpp
+END
+CGDebugInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/210047/cfe/trunk/lib/CodeGen/CGDebugInfo.cpp
+END
+CodeGenFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/210330/cfe/trunk/lib/CodeGen/CodeGenFunction.h
+END
+CGClass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/209908/cfe/trunk/lib/CodeGen/CGClass.cpp
+END
+CGBuiltin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/210137/cfe/trunk/lib/CodeGen/CGBuiltin.cpp
+END
+CGDecl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/210293/cfe/trunk/lib/CodeGen/CGDecl.cpp
+END
+CGCXXABI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CGCXXABI.cpp
+END
+CGCUDANV.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/203643/cfe/trunk/lib/CodeGen/CGCUDANV.cpp
+END
+CGValue.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CGValue.h
+END
+CGRecordLayoutBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/209272/cfe/trunk/lib/CodeGen/CGRecordLayoutBuilder.cpp
+END
+CodeGenTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/200597/cfe/trunk/lib/CodeGen/CodeGenTypes.h
+END

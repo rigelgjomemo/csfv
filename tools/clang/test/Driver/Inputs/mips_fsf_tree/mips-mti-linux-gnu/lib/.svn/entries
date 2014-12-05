@@ -1,0 +1,55 @@
+10
+
+dir
+210885
+http://llvm.org/svn/llvm-project/cfe/trunk/test/Driver/Inputs/mips_fsf_tree/mips-mti-linux-gnu/lib
+http://llvm.org/svn/llvm-project
+
+
+
+2013-11-20T13:53:20.937725Z
+195249
+atanasyan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91177308-0d34-0410-b5e6-96231b3b80d8
+
+mips32
+dir
+
+fp64
+dir
+
+mips16
+dir
+
+el
+dir
+
+micromips
+dir
+
+mips64
+dir
+
+mips64r2
+dir
+
+nan2008
+dir
+
+sof
+dir
+
