@@ -57,8 +57,10 @@ namespace ranges {
         ss << "assert " << name <<" >= "<<bottom<<" && "<< name <<" <= " <<top;
         return ss.str();
     }
+
+    llvm::raw_ostream & ranges::operator<<(llvm::raw_ostream &os, Range &r) {
+      os << '[' << r.getBottom() << ',' << r.getTop() << ']';
+      return os;
+    }
 }
-llvm::raw_ostream & ranges::operator<<(llvm::raw_ostream &os, Range &r) {
-    os << '[' << r.getBottom() << ',' << r.getTop() << ']';
-    return os;
-}
+
