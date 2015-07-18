@@ -15,3 +15,12 @@ documentation setup.
 
 If you're writing a package for LLVM, see docs/Packaging.rst for our
 suggestions.
+
+To speed up build for host debugging:
+
+1. When running "configure" include the option --enable-targets=host-only
+Otherwise the default is to build for multiple target machines
+
+2. Before running "make" set the environment variable 
+ONLY_TOOLS=1
+Otherwise the unittests files will be built
